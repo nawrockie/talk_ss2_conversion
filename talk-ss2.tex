@@ -714,5 +714,312 @@ Feb       & 2022     &230,185   &2,105,598 \\
   \vfill
 \end{slide}
     
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\center{\includegraphics[width=10.5in]{figs/16s-5s-trna-allblack}}
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{slide}
+%\center{\includegraphics[width=10.5in]{figs/16s-5s-trna-allblack-dates-refs}}
+%\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+\textbf{Functional RNAs play many vital roles in the cell}
+\end{center}
+\medskip
+
+\small
+\begin{center}
+\begin{tabular}{r|l|cccc}
+%\item
+%  Noncoding RNA (ncRNA): all RNAs other than mRNA
+ & key RNAs involved & archaea & bacteria & eukarya & viruses \\ \hline
+ & \\ 
+translation & ribosomal RNAs & x & x & x & \\
+            & transfer RNAs  & x & x & x & \\
+            & RNase P RNA    & x & x & x & \\
+            & snoRNAs        & x &   & x & \\ 
+            & SRP RNA        & x & x & x & \\ 
+            & tmRNA          &   & x &   & \\ 
+            & RNaseMRP       &   &   & x & \\ 
+            &  \\ 
+gene expression & riboswitches & ? & x & ? & \\
+                & microRNAs &  & & x & x \\
+                & 6S RNA & & x & x & \\ 
+                & \\ 
+splicing        & U1, U2, U4, U5, U6 & & & x & \\ 
+                & \\
+other           & tracrRNA       & x & x & \\
+                & telomerase RNA & & & x & \\ 
+                & group I introns& x & x & x & x \\
+%                & Vault RNA      & & & x \\
+                & sfRNAs       & & & & x \\
+                & many more... & & & \\ 
+\end{tabular}
+\end{center}
+
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+\textbf{Functional RNAs play many vital roles in the cell}
+\end{center}
+\medskip
+
+\small
+\begin{center}
+\begin{tabular}{r|l|cccc}
+%\item
+%  Noncoding RNA (ncRNA): all RNAs other than mRNA
+ & key RNAs involved & archaea & bacteria & eukarya & viruses \\ \hline
+ & \\ 
+translation & ribosomal RNAs & x & x & x & \\
+            & transfer RNAs  & x & x & x & \\
+            & RNase P RNA    & x & x & x & \\
+            & snoRNAs        & x &   & x & \\ 
+            & SRP RNA        & x & x & x & \\ 
+            & tmRNA          &   & x &   & \\ 
+            & RNaseMRP       &   &   & x & \\ 
+            &  \\ 
+gene expression & riboswitches & ? & x & ? & \\
+                & microRNAs &  & & x & x \\
+                & 6S RNA & & x & x & \\ 
+                & \\ 
+splicing        & U1, U2, U4, U5, U6 & & & x & \\ 
+                & \\
+other           & tracrRNA       & x & x & \\
+                & telomerase RNA & & & x & \\ 
+                & group I introns& x & x & x & x \\
+%                & Vault RNA      & & & x & \\
+                & sfRNAs       & & & & x \\
+                & many more... & & & & \\ 
+\end{tabular}
+
+
+\center{\includegraphics[width=2.5in]{figs/rfam-logo}}
+
+database of more than 2700 non-coding RNA families \\ each represented by a
+secondary structure, alignment, and covariance model.
+\end{center}
+
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+{\bf Many functional RNAs adopt a conserved 3-dimensional 
+  structure}
+\medskip
+
+%Three representations of a transfer RNA:
+
+%\includegraphics[width=10.5in]{figs/trna-123}
+\includegraphics[width=9in]{figs/trna-123}
+\end{center}
+
+\small
+\begin{itemize}
+\item
+  BLAST: given a single sequence, search genomes for similar sequences.
+\item
+  Structural RNAs are difficult to find
+  \begin{itemize}
+  \item short ($\sim$ 100 nt) and evolve rapidly at sequence level
+  \item lack open reading frames
+  \item small, 4 letter alphabet 
+  \end{itemize}
+  \item
+  BLAST cannot take advantage of:
+\begin{itemize}
+  \item sequence conservation, which varies across the gene
+  \item secondary structure
+\end{itemize}
+\end{itemize}
+
+\vfill
+
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+%\textbf{Comparative analysis of sequence families}: \\
+\textbf{Sequence conservation provides \\ information for homology searches}
+
+\medskip
+Conservation levels vary across alignment columns.
+
+\includegraphics[width=10in]{figs/seqstructprofiles-seq1}
+\end{center}
+
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+\textbf{Structure conservation provides additional information}
+\medskip
+
+Base-paired positions covary \\ to maintain Watson-Crick complementarity.
+
+\includegraphics[width=10in]{figs/seqstructprofiles-struct2}
+\end{center}
+
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+\begin{comment}
+\begin{slide}
+\begin{center}
+\textbf{Levels of sequence and structure conservation in RNA families}
+\end{center}
+\medskip
+
+\begin{center}
+\includegraphics[height=6.5in]{figs/avgscores-rfam11}
+\end{center}
+
+\vfill
+
+\end{slide}
+\end{comment}
+%xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+\textbf{profile HMMs and covariance models}
+%\textbf{Eddy lab software for profile probabilistic models } (since 1994)
+%\textbf{Eddy lab software for profile probabilistic models } (since 1994)
+\end{center}
+\medskip
+
+\begin{center}
+\small
+\begin{tabular}{r|cc} 
+%             &         & sequence \\
+%             & sequence& and structure \\
+%             & profiles& profiles \\ \hline
+             & sequence & sequence and \\
+             & profiles & structure profiles \\ \hline
+  \\
+  models     & profile HMMs     & {\color{red} covariance models (CMs)} \\ 
+  \\
+  software   & {\sc HMMER}      & {\sc Infernal} \\ 
+  \\
+  main use   & proteins,         & structural RNAs \\ 
+             & repetitive DNA elements &  \\
+  \\
+  databases  & {\sc Pfam} and \sc{Dfam}       & {\sc Rfam} \\
+             & (17929 and 4150 entries) & (2791 families) \\
+  \\
+%  primary sequence & yes & yes \\
+%  \\
+%  secondary structure & no & yes \\
+%  \\
+%  algorithms & Viterbi, Forward & CYK, Inside \\
+%%             & Forward & Inside \\
+%             &         & \\
+%  complexity & $O(LN)$ & $O(LN^{2} log N)$ \\
+%  \\
+  performance& faster but    & slower but    \\
+  for RNAs   & less accurate & more accurate \\
+\end{tabular}
+
+%\hspace{1.2in}\includegraphics[height=2in]{figs/hmmer_logo}\hspace{1.05in}\includegraphics[height=2.6in]{figs/infernal_logo}
+\hspace{1.8in}\includegraphics[height=2.7in]{figs/hmmer-infernal-refs-2019}
+
+\end{center}
+
+\vfill
+
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+\begin{comment}
+\begin{slide}
+\begin{center}
+\textbf{Is the added complexity worth it? \\
+  RMARK: a challenging \underline{internal} RNA homology search
+  benchmark}
+
+\includegraphics[width=10in]{figs/rmark-tree-1}
+\end{center}
+
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+\textbf{Is the added complexity worth it? \\
+  RMARK: a challenging \underline{internal} RNA homology search
+  benchmark}
+
+\includegraphics[width=10in]{figs/rmark-tree-2}
+\end{center}
+
+\vfill
+\end{slide}
+\end{comment}
+%xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+
+\textbf{Infernal outperforms primary-sequence based methods on our
+  benchmark (and others\footnote{Freyhult EK, Bollback JP, Gardner
+    PP. Genome Res. 2007 17: 117-125.}, not shown)}
+
+\end{center}
+\medskip
+
+\center{\includegraphics[width=10in]{figs/roc-talk-rcb-2014-1}}
+
+\vfill 
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\center{\includegraphics[width=10.5in]{figs/16s-5s-trna-info-16sonly}}
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\center{\includegraphics[width=10.5in]{figs/16s-5s-trna-info}}
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+\large
+\textbf{Use HMMs as filters and to constrain CM alignment}
+\end{center}
+
+\center{\includegraphics[height=5in]{figs/filter-2014-2}}
+
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+
+\textbf{HMM-based acceleration makes Infernal 10,000 times faster}
+
+\end{center}
+\medskip
+
+\center{\includegraphics[width=10in]{figs/roc-talk-rcb-2014-2}}
+
+\vfill 
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+Ribovore? Rfam? not sure where to go from here
+\end{slide}
+
 \end{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
