@@ -122,6 +122,153 @@ National Institutes of Health\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{slide}
 \begin{center}
+\large{\textbf{VADR builds a reference model of a \\ RefSeq and its features}}
+\end{center}
+
+\includegraphics[width=10.5in]{figs/dengue-features}
+
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+%\textbf{\texttt{v-annotate.pl} annotates each sequence using its
+\large{\textbf{VADR validates and annotates each input sequence \\ using its 
+  best-matching model}}
+
+\begin{itemize}
+\item Each sequence $S$ proceeds through 4 stages:
+%\item For each sequence $S$:
+\small
+\begin{enumerate}
+%\item \textbf{Classification}: compare $S$ to all models to find best matching model $M$
+\item \textbf{Classification}
+%\item \textbf{Coverage determination}: search $M$ against $S$ to find 'hits'
+\item \textbf{Coverage determination}
+%\item \textbf{Alignment}: align $S$ to $M$ and map features from $M$ to $S$
+\item \textbf{Alignment}
+%\item \textbf{Protein validation}: compare predicted CDS in $S$ to proteins
+\item \textbf{Protein validation}
+\end{enumerate}
+\end{itemize}
+
+\normalsize
+\emph{Different types of alerts are identified and reported at each stage}
+
+\end{center}
+
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+
+\includegraphics[width=9.5in]{figs/v-annotate-stage1-1}
+
+\end{center}
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+
+\includegraphics[width=9.5in]{figs/v-annotate-stage1-2}
+
+\end{center}
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+
+\includegraphics[width=9.5in]{figs/v-annotate-stage1-2}
+
+\includegraphics[width=10.5in]{figs/ss-class-alert-list}
+
+\end{center}
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+
+\includegraphics[width=10.5in]{figs/v-annotate-stage2-1}
+
+\end{center}
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+
+\includegraphics[width=10.5in]{figs/v-annotate-stage2-2}
+\includegraphics[width=10in]{figs/ss-coverage-alert-list}
+\end{center}
+
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+
+\includegraphics[width=10.5in]{figs/v-annotate-stage3-1}
+\end{center}
+
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{slide}
+%\begin{center}
+%
+%\includegraphics[width=10.5in]{figs/v-annotate-stage3-2}
+%\end{center}
+%
+%\vfill
+%\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{slide}
+%\begin{center}
+%
+%\includegraphics[width=10.5in]{figs/v-annotate-stage3-3}
+%\end{center}
+%
+%\vfill
+%\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+
+\includegraphics[width=10.5in]{figs/v-annotate-stage3-4}
+\includegraphics[width=10.5in]{figs/ss-alignment-alert-list}
+
+\end{center}
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+
+\includegraphics[width=10.5in]{figs/v-annotate-stage4-1}
+
+\end{center}
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+
+\includegraphics[width=10.5in]{figs/v-annotate-stage4-2}
+\includegraphics[width=10.5in]{figs/ss-protein-alert-list}
+
+\end{center}
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{comment}
+\begin{slide}
+\begin{center}
 %\textbf{\texttt{v-annotate.pl} annotates each sequence using its
 \textbf{VADR proceeds over four stages to validate and annotate sequences}
 
@@ -162,6 +309,10 @@ National Institutes of Health\\
 \end{center}
 \vfill
 \end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{comment}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{slide}
 \begin{center}
@@ -482,7 +633,7 @@ Feb       & 2022     &230,185   &2,105,598 \\
   \item Respiratory Syncitial Virus (RSV) models
   \item Mpox virus 
   \item Influenza models
-  \item Zika models (in progress, EB Dicksinson (postbac))
+  \item Zika models (in progress, EB Dickinson (postbac))
     \begin{itemize}
       \item matches or exceeds performance of existing GenBank flu tool FLAN
       \item able to annotate highly pathogenic avian influenza (H5N1)
