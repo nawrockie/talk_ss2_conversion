@@ -568,7 +568,7 @@ Feb       & 2022     &230,185   &2,105,598 \\
 \textbf{Besides getting faster, VADR has changed in other ways \\ (work with Linda Yankie and Vince Calhoun and GenBank team)}
 
 \begin{itemize}
-\item 14 releases since March 2020
+\item 13 releases between March 2020 and January 2022
 \item 3 additional models (all eventually dropped):
   \begin{itemize}
   \item B.1.1.7 (alpha)
@@ -802,7 +802,7 @@ other           & tracrRNA       & x & x & \\
 
 \center{\includegraphics[width=2.5in]{figs/rfam-logo}}
 
-database of more than 2700 non-coding RNA families \\ each represented by a
+database of more than 4100 non-coding RNA families \\ each represented by a
 secondary structure, alignment, and covariance model.
 \end{center}
 
@@ -917,7 +917,7 @@ Base-paired positions covary \\ to maintain Watson-Crick complementarity.
              & repetitive DNA elements &  \\
   \\
   databases  & {\sc Pfam} and \sc{Dfam}       & {\sc Rfam} \\
-             & (17929 and 4150 entries) & (2791 families) \\
+             & (23794 and 4150 entries) & (4178 families) \\
   \\
 %  primary sequence & yes & yes \\
 %  \\
@@ -1019,8 +1019,116 @@ Base-paired positions covary \\ to maintain Watson-Crick complementarity.
 \end{slide}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{slide}
-Ribovore? Rfam? not sure where to go from here
+\begin{center}
+\textbf{Practical structural RNA genome annotation}
+\end{center}
+
+\begin{itemize}
+  \item Faster Infernal integrated into:
+    \begin {itemize}
+    \item
+      NCBI prokaryotic genome annotation pipeline PGAP
+    \item
+      NCBI eukaryotic genome annotation (Fran\c{c}oise Thibaud-Nissen)
+    \end{itemize}
+\end{itemize}    
+
+\medskip
+
+\center{\includegraphics[width=8in]{figs/paper-pgap}}
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+\large{\textbf{GenBank indexers handle incoming sequence submissions}}
+\end{center}
+
+\center{\includegraphics[width=9in]{figs/spheres-submission-schematic-1}}
+
+\vfill
 \end{slide}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+\textbf{Ribosensor: a tool for evaluating ribosomal RNA datasets \\ using
+profiles and BLAST\footnote{Alejandro Sch\"{a}ffer developed the BLAST-based scheme}}
+\end{center}
+
+\center{\includegraphics[width=10in]{figs/ribosensor-schematic}}
+
+\small
+\begin{itemize}
+\item Profile-based analysis:
+\begin{itemize}
+\item 18 ribosomal RNA models (15 SSU rRNA, 3 LSU rRNA); 8 from Rfam
+%\item Fast first pass to classify each sequence to best-scoring model
+%\item Slower second pass to align each sequence to best model and analyze the alignment
+\item Detects unexpected features (``UnacceptableModel'', ``DuplicatedRegions'', etc.)
+\end{itemize}
+%\item BLAST-based analysis (with $\sim$15X smaller DB) that indexers are familiar with.
+
+\item Profile and BLAST results considered together to determine PASS/FAIL
+%\item About 8X faster\footnote{when tested in 2016} than previous BLAST-only approach
+%\item In use for ``TLS'' submissions ($>$2500 seqs) of 16S since 2017
+%\item Useful for many types of ribosomal RNAs (given models)
+\end{itemize}
+
+
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\center{\includegraphics[height=2.5in]{figs/paper-ribovore}}
+
+\center{\includegraphics[height=5.5in]{figs/ribovore}}
+
+  \vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\center{\includegraphics[width=10in]{figs/paper-rfam-2024}}
+
+  \vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\center{\includegraphics[width=10in]{figs/paper-rnacentral-2019}}
+
+\center{\includegraphics[width=10in]{figs/paper-rnacentral-2021}}
+
+  \vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\center{\includegraphics[width=10in]{figs/paper-r2dt-2021}}
+
+  \vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\center{\includegraphics[width=6in]{figs/paper-hydractinia-2024}}
+
+\center{\includegraphics[width=10in]{figs/rrna-gff}}
+
+\center{\includegraphics[width=10in]{figs/trna-gff}}
+
+  \vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\center{\includegraphics[width=10in]{figs/paper-tmrna-2025}}
+
+\center{\includegraphics[width=10in]{figs/tmrna-templates}}
+
+  \vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TODO
+% - table of viruses
+% - future directions for infernal
+% - acknowledgements
+% - banded alingmnet figures?
