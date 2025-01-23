@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/MacPorts 2019.50896_2) (preloaded format=pdflatex 2019.12.12)  23 JAN 2025 11:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/MacPorts 2019.50896_2) (preloaded format=pdflatex 2019.12.12)  23 JAN 2025 11:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -267,128 +267,128 @@ RV_2C_4-white.png> <./figs/nlm-buildings.png>] [2]
 File: figs/spheres-submission-schematic-1.pdf Graphic file (type pdf)
 <use figs/spheres-submission-schematic-1.pdf>
 Package pdftex.def Info: figs/spheres-submission-schematic-1.pdf  used on input
- line 82.
+ line 83.
 (pdftex.def)             Requested size: 650.43pt x 509.36227pt.
  [3 <./figs/spheres-submission-schematic-1.pdf>]
 <figs/vadr-title-paper.png, id=56, 981.6675pt x 379.4175pt>
 File: figs/vadr-title-paper.png Graphic file (type png)
 <use figs/vadr-title-paper.png>
-Package pdftex.def Info: figs/vadr-title-paper.png  used on input line 89.
+Package pdftex.def Info: figs/vadr-title-paper.png  used on input line 90.
 (pdftex.def)             Requested size: 722.7pt x 279.33455pt.
 LaTeX Font Info:    External font `cmex10 at17.28pt' loaded for size
-(Font)              <19.907> on input line 92.
+(Font)              <19.907> on input line 93.
 LaTeX Font Info:    External font `cmex10 at17.28pt' loaded for size
-(Font)              <13.82> on input line 92.
+(Font)              <13.82> on input line 93.
  [4 <./figs/vadr-title-paper.png>]
 <figs/spheres-submission-schematic-2.pdf, id=62, 399.38911pt x 312.75845pt>
 File: figs/spheres-submission-schematic-2.pdf Graphic file (type pdf)
 <use figs/spheres-submission-schematic-2.pdf>
 Package pdftex.def Info: figs/spheres-submission-schematic-2.pdf  used on input
- line 107.
+ line 108.
 (pdftex.def)             Requested size: 650.43pt x 509.36227pt.
  [5 <./figs/spheres-submission-schematic-2.pdf>]
 <figs/spheres-submission-schematic-4.pdf, id=102, 399.38911pt x 312.75845pt>
 File: figs/spheres-submission-schematic-4.pdf Graphic file (type pdf)
 <use figs/spheres-submission-schematic-4.pdf>
 Package pdftex.def Info: figs/spheres-submission-schematic-4.pdf  used on input
- line 118.
+ line 119.
 (pdftex.def)             Requested size: 650.43pt x 509.36227pt.
  [6 <./figs/spheres-submission-schematic-4.pdf>]
 <figs/dengue-features.pdf, id=146, 626.79372pt x 305.55856pt>
 File: figs/dengue-features.pdf Graphic file (type pdf)
 <use figs/dengue-features.pdf>
-Package pdftex.def Info: figs/dengue-features.pdf  used on input line 128.
+Package pdftex.def Info: figs/dengue-features.pdf  used on input line 129.
 (pdftex.def)             Requested size: 758.83499pt x 369.95079pt.
  [7 <./figs/dengue-features.pdf>]
 LaTeX Font Info:    External font `cmex10 at17.28pt' loaded for size
-(Font)              <23.89> on input line 140.
+(Font)              <23.89> on input line 141.
  [8]
 <figs/v-annotate-stage1-1.pdf, id=189, 799.98875pt x 426.59375pt>
 File: figs/v-annotate-stage1-1.pdf Graphic file (type pdf)
 <use figs/v-annotate-stage1-1.pdf>
-Package pdftex.def Info: figs/v-annotate-stage1-1.pdf  used on input line 166.
+Package pdftex.def Info: figs/v-annotate-stage1-1.pdf  used on input line 167.
 (pdftex.def)             Requested size: 686.56499pt x 366.12791pt.
  [9 <./figs/v-annotate-stage1-1.pdf>]
 <figs/v-annotate-stage1-2.pdf, id=301, 799.98875pt x 426.59375pt>
 File: figs/v-annotate-stage1-2.pdf Graphic file (type pdf)
 <use figs/v-annotate-stage1-2.pdf>
-Package pdftex.def Info: figs/v-annotate-stage1-2.pdf  used on input line 175.
+Package pdftex.def Info: figs/v-annotate-stage1-2.pdf  used on input line 176.
 (pdftex.def)             Requested size: 686.56499pt x 366.12791pt.
  [10 <./figs/v-annotate-stage1-2.pdf>]
 File: figs/v-annotate-stage1-2.pdf Graphic file (type pdf)
 <use figs/v-annotate-stage1-2.pdf>
-Package pdftex.def Info: figs/v-annotate-stage1-2.pdf  used on input line 184.
+Package pdftex.def Info: figs/v-annotate-stage1-2.pdf  used on input line 185.
 (pdftex.def)             Requested size: 686.56499pt x 366.12791pt.
 <figs/ss-class-alert-list.png, id=399, 1693.32625pt x 438.63875pt>
 File: figs/ss-class-alert-list.png Graphic file (type png)
 <use figs/ss-class-alert-list.png>
-Package pdftex.def Info: figs/ss-class-alert-list.png  used on input line 186.
+Package pdftex.def Info: figs/ss-class-alert-list.png  used on input line 187.
 (pdftex.def)             Requested size: 758.83499pt x 196.56905pt.
  [11 <./figs/ss-class-alert-list.png>]
 <figs/v-annotate-stage2-1.pdf, id=404, 775.958pt x 425.1343pt>
 File: figs/v-annotate-stage2-1.pdf Graphic file (type pdf)
 <use figs/v-annotate-stage2-1.pdf>
-Package pdftex.def Info: figs/v-annotate-stage2-1.pdf  used on input line 195.
+Package pdftex.def Info: figs/v-annotate-stage2-1.pdf  used on input line 196.
 (pdftex.def)             Requested size: 758.83499pt x 415.7595pt.
  [12 <./figs/v-annotate-stage2-1.pdf>]
 <figs/v-annotate-stage2-2.pdf, id=445, 775.958pt x 425.1343pt>
 File: figs/v-annotate-stage2-2.pdf Graphic file (type pdf)
 <use figs/v-annotate-stage2-2.pdf>
-Package pdftex.def Info: figs/v-annotate-stage2-2.pdf  used on input line 204.
+Package pdftex.def Info: figs/v-annotate-stage2-2.pdf  used on input line 205.
 (pdftex.def)             Requested size: 758.83499pt x 415.7595pt.
 <figs/ss-coverage-alert-list.png, id=446, 1498.59875pt x 377.41pt>
 File: figs/ss-coverage-alert-list.png Graphic file (type png)
 <use figs/ss-coverage-alert-list.png>
 Package pdftex.def Info: figs/ss-coverage-alert-list.png  used on input line 20
-5.
+6.
 (pdftex.def)             Requested size: 722.7pt x 182.00703pt.
  [13 <./figs/v-annotate-stage2-2.pdf> <./figs/ss-coverage-alert-list.png>]
 <figs/v-annotate-stage3-1.pdf, id=489, 775.958pt x 425.1343pt>
 File: figs/v-annotate-stage3-1.pdf Graphic file (type pdf)
 <use figs/v-annotate-stage3-1.pdf>
-Package pdftex.def Info: figs/v-annotate-stage3-1.pdf  used on input line 214.
+Package pdftex.def Info: figs/v-annotate-stage3-1.pdf  used on input line 215.
 (pdftex.def)             Requested size: 758.83499pt x 415.7595pt.
 
 [14 <./figs/v-annotate-stage3-1.pdf>]
 <figs/v-annotate-stage3-4.pdf, id=547, 775.958pt x 178.2118pt>
 File: figs/v-annotate-stage3-4.pdf Graphic file (type pdf)
 <use figs/v-annotate-stage3-4.pdf>
-Package pdftex.def Info: figs/v-annotate-stage3-4.pdf  used on input line 241.
+Package pdftex.def Info: figs/v-annotate-stage3-4.pdf  used on input line 242.
 (pdftex.def)             Requested size: 758.83499pt x 174.28198pt.
 <figs/ss-alignment-alert-list.png, id=548, 1672.2475pt x 846.16125pt>
 File: figs/ss-alignment-alert-list.png Graphic file (type png)
 <use figs/ss-alignment-alert-list.png>
 Package pdftex.def Info: figs/ss-alignment-alert-list.png  used on input line 2
-42.
+43.
 (pdftex.def)             Requested size: 758.83499pt x 383.98398pt.
  [15 <./figs/v-annotate-stage3-4.pdf> <./figs/ss-alignment-alert-list.png>]
 <figs/v-annotate-stage4-1.pdf, id=607, 769.71262pt x 263.04674pt>
 File: figs/v-annotate-stage4-1.pdf Graphic file (type pdf)
 <use figs/v-annotate-stage4-1.pdf>
-Package pdftex.def Info: figs/v-annotate-stage4-1.pdf  used on input line 251.
+Package pdftex.def Info: figs/v-annotate-stage4-1.pdf  used on input line 252.
 (pdftex.def)             Requested size: 758.83499pt x 259.33334pt.
  [16 <./figs/v-annotate-stage4-1.pdf>]
 <figs/v-annotate-stage4-2.pdf, id=678, 769.71262pt x 263.04674pt>
 File: figs/v-annotate-stage4-2.pdf Graphic file (type pdf)
 <use figs/v-annotate-stage4-2.pdf>
-Package pdftex.def Info: figs/v-annotate-stage4-2.pdf  used on input line 260.
+Package pdftex.def Info: figs/v-annotate-stage4-2.pdf  used on input line 261.
 (pdftex.def)             Requested size: 758.83499pt x 259.33334pt.
 <figs/ss-protein-alert-list.png, id=679, 1610.015pt x 492.84125pt>
 File: figs/ss-protein-alert-list.png Graphic file (type png)
 <use figs/ss-protein-alert-list.png>
-Package pdftex.def Info: figs/ss-protein-alert-list.png  used on input line 261
+Package pdftex.def Info: figs/ss-protein-alert-list.png  used on input line 262
 .
 (pdftex.def)             Requested size: 758.83499pt x 232.28214pt.
 
 [17 <./figs/v-annotate-stage4-2.pdf> <./figs/ss-protein-alert-list.png>]
 [18]
 LaTeX Font Info:    External font `cmex10 at17.28pt' loaded for size
-(Font)              <10> on input line 348.
+(Font)              <10> on input line 349.
  [19] [20]
 <figs/vadr-r-option.pdf, id=759, 532.32776pt x 193.96164pt>
 File: figs/vadr-r-option.pdf Graphic file (type pdf)
 <use figs/vadr-r-option.pdf>
-Package pdftex.def Info: figs/vadr-r-option.pdf  used on input line 413.
+Package pdftex.def Info: figs/vadr-r-option.pdf  used on input line 414.
 (pdftex.def)             Requested size: 740.76749pt x 269.91663pt.
  [21 <./figs/vadr-r-option.pdf>]
 
@@ -397,62 +397,62 @@ PDF version <1.6>, but at most version <1.5> allowed
 <figs/vadr-s-option.pdf, id=776, 560.42375pt x 211.93279pt>
 File: figs/vadr-s-option.pdf Graphic file (type pdf)
 <use figs/vadr-s-option.pdf>
-Package pdftex.def Info: figs/vadr-s-option.pdf  used on input line 423.
+Package pdftex.def Info: figs/vadr-s-option.pdf  used on input line 424.
 (pdftex.def)             Requested size: 740.76749pt x 280.1531pt.
 [22 <./figs/vadr-s-option.pdf>]
 <figs/vadr-1p2-multithreading.pdf, id=790, 486.82378pt x 236.40721pt>
 File: figs/vadr-1p2-multithreading.pdf Graphic file (type pdf)
 <use figs/vadr-1p2-multithreading.pdf>
 Package pdftex.def Info: figs/vadr-1p2-multithreading.pdf  used on input line 4
-45.
+46.
 (pdftex.def)             Requested size: 758.83499pt x 368.50517pt.
  [23 <./figs/vadr-1p2-multithreading.pdf>]
 [24] [25] [26] [27]
 LaTeX Font Info:    Try loading font information for OT1+lcmtt on input line 57
-7.
+8.
  (/opt/local/share/texmf-texlive/tex/latex/base/ot1lcmtt.fd
 File: ot1lcmtt.fd 1998/06/12 v2.2e Standard LaTeX slide font definitions
 ) [28]
 <figs/vadr-sarscov2-paper.png, id=820, 704.6325pt x 240.9pt>
 File: figs/vadr-sarscov2-paper.png Graphic file (type png)
 <use figs/vadr-sarscov2-paper.png>
-Package pdftex.def Info: figs/vadr-sarscov2-paper.png  used on input line 587.
+Package pdftex.def Info: figs/vadr-sarscov2-paper.png  used on input line 588.
 (pdftex.def)             Requested size: 758.83499pt x 259.42926pt.
  [29 <./figs/vadr-sarscov2-paper.png>] [30] [31]
 <figs/vadr-flu-paper.png, id=832, 512.91624pt x 134.5025pt>
 File: figs/vadr-flu-paper.png Graphic file (type png)
 <use figs/vadr-flu-paper.png>
-Package pdftex.def Info: figs/vadr-flu-paper.png  used on input line 642.
+Package pdftex.def Info: figs/vadr-flu-paper.png  used on input line 643.
 (pdftex.def)             Requested size: 758.83499pt x 199.00514pt.
  [32]
 
-Class slides Warning: Slide 32 too long on input line 645.
+Class slides Warning: Slide 32 too long on input line 646.
 
 [32 <./figs/vadr-flu-paper.png>] [33] [34] [35] [36]
 <figs/16s-5s-trna-allblack.pdf, id=853, 794.97pt x 614.295pt>
 File: figs/16s-5s-trna-allblack.pdf Graphic file (type pdf)
 <use figs/16s-5s-trna-allblack.pdf>
-Package pdftex.def Info: figs/16s-5s-trna-allblack.pdf  used on input line 720.
+Package pdftex.def Info: figs/16s-5s-trna-allblack.pdf  used on input line 721.
 
 (pdftex.def)             Requested size: 758.83499pt x 586.38895pt.
  [37 <./figs/16s-5s-trna-allblack.pdf>] [38]
 <figs/rfam-logo.png, id=888, 321.2pt x 94.3525pt>
 File: figs/rfam-logo.png Graphic file (type png)
 <use figs/rfam-logo.png>
-Package pdftex.def Info: figs/rfam-logo.png  used on input line 802.
+Package pdftex.def Info: figs/rfam-logo.png  used on input line 803.
 (pdftex.def)             Requested size: 180.67499pt x 53.07457pt.
  [39 <./figs/rfam-logo.png>]
 <figs/trna-123.pdf, id=893, 2455.31291pt x 946.81628pt>
 File: figs/trna-123.pdf Graphic file (type pdf)
 <use figs/trna-123.pdf>
-Package pdftex.def Info: figs/trna-123.pdf  used on input line 821.
+Package pdftex.def Info: figs/trna-123.pdf  used on input line 822.
 (pdftex.def)             Requested size: 650.43pt x 250.81844pt.
  [40 <./figs/trna-123.pdf>]
 <figs/seqstructprofiles-seq1.pdf, id=914, 787.40175pt x 477.18777pt>
 File: figs/seqstructprofiles-seq1.pdf Graphic file (type pdf)
 <use figs/seqstructprofiles-seq1.pdf>
 Package pdftex.def Info: figs/seqstructprofiles-seq1.pdf  used on input line 85
-6.
+7.
 (pdftex.def)             Requested size: 722.7pt x 437.98413pt.
 
 [41 <./figs/seqstructprofiles-seq1.pdf>]
@@ -460,37 +460,37 @@ Package pdftex.def Info: figs/seqstructprofiles-seq1.pdf  used on input line 85
 File: figs/seqstructprofiles-struct2.pdf Graphic file (type pdf)
 <use figs/seqstructprofiles-struct2.pdf>
 Package pdftex.def Info: figs/seqstructprofiles-struct2.pdf  used on input line
- 869.
+ 870.
 (pdftex.def)             Requested size: 722.7pt x 468.45108pt.
  [42 <./figs/seqstructprofiles-struct2.pdf>]
 
 LaTeX Font Warning: Font shape `OT1/lcmss/m/sc' undefined
-(Font)              using `OT1/lcmss/m/n' instead on input line 913.
+(Font)              using `OT1/lcmss/m/n' instead on input line 914.
 
 <figs/hmmer-infernal-refs-2019.pdf, id=1030, 463.7325pt x 248.93pt>
 File: figs/hmmer-infernal-refs-2019.pdf Graphic file (type pdf)
 <use figs/hmmer-infernal-refs-2019.pdf>
 Package pdftex.def Info: figs/hmmer-infernal-refs-2019.pdf  used on input line 
-935.
+936.
 (pdftex.def)             Requested size: 363.51425pt x 195.12877pt.
 [43 <./figs/hmmer-infernal-refs-2019.pdf>]
 LaTeX Font Info:    Try loading font information for OMS+lcmss on input line 97
-7.
-LaTeX Font Info:    No file OMSlcmss.fd. on input line 977.
+8.
+LaTeX Font Info:    No file OMSlcmss.fd. on input line 978.
 
 
 LaTeX Font Warning: Font shape `OMS/lcmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textasteriskcentered' on input line 977.
+(Font)              for symbol `textasteriskcentered' on input line 978.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16.59> not available
-(Font)              size <17.28> substituted on input line 977.
+(Font)              size <17.28> substituted on input line 978.
 
 <figs/roc-talk-rcb-2014-1.pdf, id=1053, 653.08794pt x 340.87651pt>
 File: figs/roc-talk-rcb-2014-1.pdf Graphic file (type pdf)
 <use figs/roc-talk-rcb-2014-1.pdf>
-Package pdftex.def Info: figs/roc-talk-rcb-2014-1.pdf  used on input line 982.
+Package pdftex.def Info: figs/roc-talk-rcb-2014-1.pdf  used on input line 983.
 (pdftex.def)             Requested size: 722.7pt x 377.2227pt.
 [44 <./figs/roc-talk-rcb-2014-1.pdf>]
 
@@ -500,26 +500,26 @@ ion: found PDF version <1.7>, but at most version <1.5> allowed
 File: figs/16s-5s-trna-info-16sonly.pdf Graphic file (type pdf)
 <use figs/16s-5s-trna-info-16sonly.pdf>
 Package pdftex.def Info: figs/16s-5s-trna-info-16sonly.pdf  used on input line 
-989.
+990.
 (pdftex.def)             Requested size: 758.83499pt x 586.38895pt.
 [45 <./figs/16s-5s-trna-info-16sonly.pdf>]
 <figs/16s-5s-trna-info.pdf, id=1099, 794.97pt x 614.295pt>
 File: figs/16s-5s-trna-info.pdf Graphic file (type pdf)
 <use figs/16s-5s-trna-info.pdf>
-Package pdftex.def Info: figs/16s-5s-trna-info.pdf  used on input line 993.
+Package pdftex.def Info: figs/16s-5s-trna-info.pdf  used on input line 994.
 (pdftex.def)             Requested size: 758.83499pt x 586.38895pt.
  [46 <./figs/16s-5s-trna-info.pdf>]
 <figs/filter-2014-2.pdf, id=1136, 346.11308pt x 315.847pt>
 File: figs/filter-2014-2.pdf Graphic file (type pdf)
 <use figs/filter-2014-2.pdf>
-Package pdftex.def Info: figs/filter-2014-2.pdf  used on input line 1002.
+Package pdftex.def Info: figs/filter-2014-2.pdf  used on input line 1003.
 (pdftex.def)             Requested size: 395.97781pt x 361.34999pt.
 
 [47 <./figs/filter-2014-2.pdf>]
 <figs/roc-talk-rcb-2014-2.pdf, id=1145, 653.08794pt x 340.87651pt>
 File: figs/roc-talk-rcb-2014-2.pdf Graphic file (type pdf)
 <use figs/roc-talk-rcb-2014-2.pdf>
-Package pdftex.def Info: figs/roc-talk-rcb-2014-2.pdf  used on input line 1015.
+Package pdftex.def Info: figs/roc-talk-rcb-2014-2.pdf  used on input line 1016.
 
 (pdftex.def)             Requested size: 722.7pt x 377.2227pt.
  [48 <./figs/roc-talk-rcb-2014-2.pdf>] [49]
@@ -539,7 +539,7 @@ Here is how much of TeX's memory you used:
  5993 multiletter control sequences out of 15000+600000
  12216 words of font info for 43 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 41i,8n,25p,275b,283s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,8n,25p,275b,304s stack positions out of 5000i,500n,10000p,200000b,80000s
 </opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></op
 t/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/loc
 al/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></opt/local/sha
@@ -547,7 +547,7 @@ re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt8.pfb></opt/local/share/tex
 mf-texlive/fonts/type1/public/amsfonts/latxfont/lcmss8.pfb></opt/local/share/te
 xmf-texlive/fonts/type1/public/amsfonts/latxfont/lcmssb8.pfb></opt/local/share/
 texmf-texlive/fonts/type1/public/amsfonts/latxfont/lcmssi8.pfb>
-Output written on talk-ss2.pdf (50 pages, 5140923 bytes).
+Output written on talk-ss2.pdf (50 pages, 5140948 bytes).
 PDF statistics:
  1193 PDF objects out of 1200 (max. 8388607)
  738 compressed objects within 8 object streams
