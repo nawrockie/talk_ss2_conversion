@@ -449,6 +449,7 @@ total running time, CPU days           &1.1            &10.2           &\textcol
 \vfill
 \end{slide}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{comment}
 \begin{slide}
 \begin{center}
 \normalsize{\textbf{VADR is now 1000-fold faster in practice for SARS-CoV-2 processing}}
@@ -487,6 +488,7 @@ v1.4.1       &$+$         &$+$         &$+$         &1           &2 Gb        &2
 
 \vfill
 \end{slide}
+\end{comment}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{slide}
 \begin{center}
@@ -501,18 +503,18 @@ version     &ment?       &ment?       &glsearch?   &cpus        &RAM         &se
 & & & & & & & & \\
 v1.0         &$-$         &$-$         &$-$         &1           &64 Gb       &329.91      &9164.3      &-           \\
 %v1.1         &$+$         &$+$         &$-$         &1           &64 Gb       &49.35       &1370.7      &6.7         \\
-& & & & & & & & \\
-v1.4.1       &$+$         &$+$         &$+$         &1           &2 Gb        &2.51        &69.8        &131.4       \\
-& & & & & & & & \\
+%& & & & & & & & \\
+%v1.4.1       &$+$         &$+$         &$+$         &1           &2 Gb        &2.51        &69.8        &131.4       \\
+%& & & & & & & & \\
 %v1.4.1       &$+$         &$+$         &$+$         &2           &4 Gb        &1.49        &41.5        &220.8       \\
 %& & & & & & & & \\
 %v1.4.1       &$+$         &$+$         &$+$         &4           &8 Gb        &0.65        &18.0        &509.9       \\
-%& & & & & & & & \\
-\textbf{v1.4.1}&\textbf{$+$}&\textbf{$+$}&\textbf{$+$}&\textbf{8}  &\textbf{16 Gb}&\textbf{0.33}&\textbf{9.3}&\textbf{986.8}\\
 & & & & & & & & \\
+\textbf{v1.4.1}&\textbf{$+$}&\textbf{$+$}&\textbf{$+$}&\textbf{8}  &\textbf{16 Gb}&\textbf{0.33}&\textbf{9.3}&\textbf{986.8}\\
+%& & & & & & & & \\
 %v1.4.1       &$+$         &$+$         &$+$         &16          &32 Gb       &0.23        &6.5         &1417.9      \\
 %& & & & & & & & \\
-v1.4.1       &$+$         &$+$         &$+$         &32          &64 Gb       &0.13        &3.7         &2462.2      \\
+%v1.4.1       &$+$         &$+$         &$+$         &32          &64 Gb       &0.13        &3.7         &2462.2      \\
 \end{tabular}
 \end{center}
 
@@ -594,54 +596,52 @@ Feb       & 2022     &230,185   &2,105,598 \\
 \begin{slide}
 \begin{center}
   \textbf{Additional VADR models and development}
+
+\small
+\begin{tabular}{r|l|cccc}
+ & length & num models & new feature(s) & author\\ \hline
+ & \\ 
+RSV & 15Kb & 2 & alignment-based models & EPN \\
+& \\
+COX-1 & 1.5Kb & 86 & protein-coding gene & EPN \\
+& \\
+Mpox & 197Kb & 1 & minimap alignment & EPN \\
+& \\
+Influenza & 1-2Kb & 70 & segmented virus & EPN \\
+& \\
+Zika      & 11Kb & ? & ? & EBD \\
+& \\
+\end{tabular}
+
+% \includegraphics[width=10.5in]{figs/vadr-flu-paper}
+
 \end{center}
-
-  \begin{itemize}
-  \item Respiratory Syncitial Virus (RSV) models
-  \item Mpox virus 
-  \item Influenza models
-    \begin{itemize}
-      \item compare with existing GenBank flu tool FLAN
-    \end{itemize}
-  \end{itemize}
-
   \vfill
 \end{slide}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{slide}
 \begin{center}
   \textbf{Additional VADR models and development}
-\end{center}
 
-  \begin{itemize}
-  \item Respiratory Syncitial Virus (RSV) models
-  \item Mpox virus 
-  \item Influenza models
-    \begin{itemize}
-      \item compare with existing GenBank flu tool FLAN
-    \end{itemize}
-  \end{itemize}
+\small
+\begin{tabular}{r|l|cccc}
+ & length & num models & new feature(s) & author\\ \hline
+ & \\ 
+RSV & 15Kb & 2 & alignment-based models & EPN \\
+& \\
+COX-1 & 1.5Kb & 86 & protein-coding gene & EPN \\
+& \\
+Mpox & 197Kb & 1 & minimap alignment & EPN \\
+& \\
+Influenza & 1-2Kb & 70 & segmented virus & EPN \\
+& \\
+Zika      & 11Kb & ? & ? & EBD \\
+& \\
+\end{tabular}
 
-  \vfill
-\end{slide}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{slide}
-\begin{center}
-  \textbf{Additional VADR models and development}
-\end{center}
-
-  \begin{itemize}
-  \item Respiratory Syncitial Virus (RSV) models
-  \item Mpox virus 
-  \item Influenza models
-  \item Zika models (in progress, EB Dickinson (postbac))
-    \begin{itemize}
-      \item matches or exceeds performance of existing GenBank flu tool FLAN
-      \item able to annotate highly pathogenic avian influenza (H5N1)
-    \end{itemize}
-  \end{itemize}
 \includegraphics[width=10.5in]{figs/vadr-flu-paper}
 
+\end{center}
   \vfill
 \end{slide}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -650,22 +650,47 @@ Feb       & 2022     &230,185   &2,105,598 \\
   \textbf{Additional VADR models and development}
 \end{center}
 
-  \begin{itemize}
-  \item VADR is general, standalone and includes a module for users to
-    build new models 
+%  \begin{itemize}
+%  \item VADR is general, standalone and includes a module for users to
+%    build new models 
+\begin{itemize}
   \item Alex Greninger's lab at Univ of Washington:
     \begin {itemize}
     \item sequences a wide variety of human pathogenic viruses
     \item previously developed the VAPiD software tool for validating
       and annotating viral sequences
-    \item now collaborates with me building VADR models:
-      \begin{itemize}
-      \item Herpes Simplex Virus (HSV-1 and HSV-2) models
-      \item Human metapneumovirus (HMPV) models
-      \end{itemize}
-    \end{itemize}
+    \item now a collaborator that builds VADR models
   \end{itemize}
+\end{itemize}
 
+  \vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+  \textbf{Additional VADR models and development}
+
+\small
+\begin{tabular}{r|l|cccc}
+ & length & num models & new feature(s) & author\\ \hline
+ & \\ 
+RSV & 15Kb & 2 & alignment-based models & EPN \\
+& \\
+Mpox & 197Kb & 1 & minimap alignment & EPN \\
+& \\
+COX-1 & 1.5Kb & 86 & protein-coding gene & EPN \\
+& \\
+Influenza & 1-2Kb & 70 & segmented virus & EPN \\
+& \\
+Zika      & 11Kb & ? & ? & EBD \\
+& \\
+Herpes Simplex Virus (HSV) & 150Kb & 2 & - & Greninger Lab \\
+& \\
+Human metapneumovirus (HMPV) & 13Kb & 6 & - & Greninger Lab \\
+& \\
+\end{tabular}
+
+\end{center}
   \vfill
 \end{slide}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -994,6 +1019,133 @@ Base-paired positions covary \\ to maintain Watson-Crick complementarity.
 \center{\includegraphics[width=10.5in]{figs/16s-5s-trna-info}}
 \end{slide}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+\large
+\textbf{Filter target database using profile HMMs\footnote{Weinberg,
+    Ruzzo, RECOMB, 243-251, 2004; Weinberg, Ruzzo, Bioinformatics,
+    22(1) 35-39 2006.}}
+\end{center}
+
+\center{\includegraphics[height=4in]{figs/filter-2014-1}}
+
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+\large
+\textbf{Filter target database using profile HMMs\footnote{Weinberg,
+    Ruzzo, RECOMB, 243-251, 2004; Weinberg, Ruzzo, Bioinformatics,
+    22(1) 35-39 2006.}}
+\end{center}
+
+\center{\includegraphics[height=4in]{figs/filter-2014-1}}
+
+\begin{itemize}
+\item Even if we filter out 99\% of the database (for up to 100X
+  acceleration), searches will still be too slow.
+\item CM step needs to be accelerated. 
+\end{itemize}
+
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{slide}
+%\begin{center}
+%
+%\textbf{Accelerating CM alignment step 1: \\ align sequence with HMM}
+%
+%\includegraphics[height=6in]{figs/hmm_alignment2_layer2}
+%\end{center}
+%
+%\vfill
+%\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+
+%\textbf{Accelerating CM alignment step 2: \\ HMM posterior decoding to
+%  get confidence estimates}
+\textbf{Accelerating CM alignment step 1: \\ HMM posterior decoding to
+  get confidence estimates}
+
+\includegraphics[height=6in]{figs/hmm_alignment2_layer3}
+\end{center}
+
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+
+%\textbf{Accelerating CM alignment step 2: \\ use HMM alignment
+%  confidence to constrain CM alignment\footnote{M. P. Brown. Proc. Int. Conf. ISMB, 8:57–66, 2000.}}
+\textbf{Accelerating CM alignment step 2: \\ use HMM alignment
+  confidence to constrain CM alignment}
+\end{center}
+\medskip
+\small
+%\begin{itemize}
+%\item
+%\textbf{main idea:} eliminate potential alignments the HMM tells us are very improbable
+%\end{itemize}
+\begin{center}
+\includegraphics[width=8in]{figs/post_hmm_to_cm_map2_layer14}
+\end{center}
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+
+%\textbf{Accelerating CM alignment step 2: \\ use HMM alignment
+%  confidence to constrain CM alignment\footnote{M. P. Brown. Proc. Int. Conf. ISMB, 8:57–66, 2000.}}
+\textbf{Accelerating CM alignment step 2: \\ use HMM alignment
+  confidence to constrain CM alignment}
+\end{center}
+\medskip
+\small
+%\begin{itemize}
+%\item
+%\textbf{main idea:} eliminate potential alignments the HMM tells us are very improbable
+%\end{itemize}
+\begin{center}
+\includegraphics[width=8in]{figs/post_hmm_to_cm_map2_layer15}
+\end{center}
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+
+%\textbf{Accelerating CM alignment step 3: \\ use HMM alignment
+%  confidence to constrain CM alignment\footnote{M. P. Brown. Proc. Int. Conf. ISMB, 8:57–66, 2000.}}
+\textbf{Accelerating CM alignment step 3: \\ use HMM alignment
+  confidence to constrain CM alignment}
+\end{center}
+\medskip
+\small
+%\begin{itemize}
+%\item
+%\textbf{main idea:} eliminate potential alignments the HMM tells us are very improbable
+%\end{itemize}
+\begin{center}
+\includegraphics[width=8in]{figs/post_hmm_to_cm_map2_layer16}
+\end{center}
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\center{\includegraphics[width=10.5in]{figs/16s-5s-trna-info-16sonly}}
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\center{\includegraphics[width=10.5in]{figs/16s-5s-trna-info}}
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{slide}
 \begin{center}
 \large
@@ -1017,6 +1169,8 @@ Base-paired positions covary \\ to maintain Watson-Crick complementarity.
 
 \vfill 
 \end{slide}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{slide}
 \begin{center}
@@ -1039,6 +1193,16 @@ Base-paired positions covary \\ to maintain Watson-Crick complementarity.
 \vfill
 \end{slide}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+
+\center{\includegraphics[width=7in]{figs/paper-introns}}
+
+\center{\includegraphics[width=6in]{figs/gp1-fig2-ss}}
+% T. A. Jones, and S. R. Eddy, NAR, 2018, gky414}
+
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{slide}
 \begin{center}
 \large{\textbf{GenBank indexers handle incoming sequence submissions}}
