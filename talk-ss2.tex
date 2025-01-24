@@ -598,19 +598,18 @@ Feb       & 2022     &230,185   &2,105,598 \\
   \textbf{Additional VADR models and development}
 
 \small
-\begin{tabular}{r|l|cccc}
+\begin{tabular}{l|r|r|l|l|l}
  & length & num models & new feature(s) & author\\ \hline
- & \\ 
+ & & & & & \\ 
 RSV & 15Kb & 2 & alignment-based models & EPN \\
-& \\
+ & & & & & \\ 
 COX-1 & 1.5Kb & 86 & protein-coding gene & EPN \\
-& \\
+ & & & & & \\ 
 Mpox & 197Kb & 1 & minimap alignment & EPN \\
-& \\
+ & & & & & \\ 
 Influenza & 1-2Kb & 70 & segmented virus & EPN \\
-& \\
+ & & & & & \\ 
 Zika      & 11Kb & ? & ? & EBD \\
-& \\
 \end{tabular}
 
 % \includegraphics[width=10.5in]{figs/vadr-flu-paper}
@@ -624,19 +623,18 @@ Zika      & 11Kb & ? & ? & EBD \\
   \textbf{Additional VADR models and development}
 
 \small
-\begin{tabular}{r|l|cccc}
+\begin{tabular}{l|r|r|l|l|l}
  & length & num models & new feature(s) & author\\ \hline
- & \\ 
+ & & & & & \\ 
 RSV & 15Kb & 2 & alignment-based models & EPN \\
-& \\
+ & & & & & \\ 
 COX-1 & 1.5Kb & 86 & protein-coding gene & EPN \\
-& \\
+ & & & & & \\ 
 Mpox & 197Kb & 1 & minimap alignment & EPN \\
-& \\
+ & & & & & \\ 
 Influenza & 1-2Kb & 70 & segmented virus & EPN \\
-& \\
+ & & & & & \\ 
 Zika      & 11Kb & ? & ? & EBD \\
-& \\
 \end{tabular}
 
 \includegraphics[width=10.5in]{figs/vadr-flu-paper}
@@ -671,23 +669,24 @@ Zika      & 11Kb & ? & ? & EBD \\
   \textbf{Additional VADR models and development}
 
 \small
-\begin{tabular}{r|l|cccc}
+\begin{tabular}{l|r|r|l|l|l}
  & length & num models & new feature(s) & author\\ \hline
- & \\ 
+ & & & & & \\ 
 RSV & 15Kb & 2 & alignment-based models & EPN \\
-& \\
-Mpox & 197Kb & 1 & minimap alignment & EPN \\
-& \\
+ & & & & & \\ 
 COX-1 & 1.5Kb & 86 & protein-coding gene & EPN \\
-& \\
+ & & & & & \\ 
+Mpox & 197Kb & 1 & minimap alignment & EPN \\
+ & & & & & \\ 
 Influenza & 1-2Kb & 70 & segmented virus & EPN \\
-& \\
+ & & & & & \\ 
 Zika      & 11Kb & ? & ? & EBD \\
-& \\
-Herpes Simplex Virus (HSV) & 150Kb & 2 & - & Greninger Lab \\
-& \\
-Human metapneumovirus (HMPV) & 13Kb & 6 & - & Greninger Lab \\
-& \\
+ & & & & & \\ 
+Herpes Simplex & 150Kb & 2 & - & Greninger Lab \\
+Virus (HSV) &  &  &  & \\
+ & & & & & \\ 
+Human meta- & 13Kb & 6 & - & Greninger Lab \\
+pneumovirus (HMPV) &  &  &  &  \\
 \end{tabular}
 
 \end{center}
@@ -696,50 +695,24 @@ Human metapneumovirus (HMPV) & 13Kb & 6 & - & Greninger Lab \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{slide}
 \begin{center}
-  \textbf{VADR and NCBI virus}
+  \textbf{Future directions for VADR}
 \end{center}
 
   \begin{itemize}
-  \item FY2025 NCBI virus goals related to VADR:
+  \item NCBI Virus FY2025 goals: 
     \begin{itemize}
     \item VADR web server
     \item Replacement of FLAN with VADR
     \end{itemize}
+
+  \item Development of and application of models for additional
+    viruses (our group and Greninger lab)
+%  \item Alignment-based models 
+%  \item RNA structure annotation in Flaviviruses (already exists for Dengue)
   \end{itemize}
   \vfill
 
 \end{slide}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{slide}
-\begin{center}
-  \textbf{Future directions}
-\end{center}
-
-  \begin{itemize}
-  \item More models (our group and Greninger lab)
-  \item Alignment-based models 
-  \item RNA structure annotation in Flaviviruses (already exists for Dengue)
-  \end{itemize}
-  \vfill
-
-\end{slide}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{slide}
-\begin{center}
-  \textbf{Structural RNA sequence analysis}
-\end{center}
-
-  \begin{itemize}
-    \item intro to Infernal
-    \item intro to Rfam
-    \item intro to RNAcentral?
-    \item intro to R2DT?
-    \item RNA annotation: PGAP, Euk genomes (?), Hydractinia genomes
-    \item tmRNA DB
-  \end{itemize}
-  \vfill
-\end{slide}
-    
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{slide}
@@ -1289,10 +1262,184 @@ profiles and BLAST\footnote{Alejandro Sch\"{a}ffer developed the BLAST-based sch
   \vfill
 \end{slide}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+  \textbf{Future directions for structural RNA research}
+\end{center}
+
+  \begin{itemize}
+  \item Further development of Infernal
+    \begin{itemize}
+    \item iterative search
+    \item meta-models for clade-specific scoring
+    \end{itemize}
+  \item Structural RNA annotation
+    \begin{itemize}
+    \item group I introns: improved covariance models for Rfam
+    \item viral structural RNA annotations by VADR
+    \end{itemize}
+  \end{itemize}    
+    
+  \vfill
+
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+
+\large
+\begin{center}
+\large{\textbf{Acknowledgements}} \\
+
+\normalsize
+\vspace{0.75in}
+
+\small
+\begin{tabular}{l|l|l}
+%                  & \\ \hline
+%                  & \\
+\textbf{NLM - VADR}      & \textbf{NLM - Ribovore}   & \textbf{NLM - RNA annotation} \\
+Alejandro Sch\"{a}ffer   & Alejandro Sch\"{a}ffer    &  Fran\c{c}oise Thibaud-Nissen \\
+Rodney Brister           & Ilene Mizrachi            &  Azat Badretdin \\
+Ilene Mizrachi           & Rich McVeigh              &  Terence Murphy \\
+Eneida Hatcher           & Anji Johnston             &  Michael DiCuccio \\
+Linda Yankie             & Beverly Underwood         &  Tatiana Tatusova \\
+Vince Calhoun            & Alex Kotliarov            &  Mark Borodovsky \\
+Susan Schafer            & Barbara Robbertse \\
+EB Dickinson             & Conrad Schoch \\
+& & \\ \hline
+ & & \\    
+\textbf{Harvard/Janelia} & \textbf{Rfam/RNAcentral} & \textbf{NLM - leadership} \\
+Sean Eddy                &  Anton Petrov            & David Landsman \\
+Tom Jones                &  Blake Sweeney           & Richard Scheuermann  \\
+Diana Kolbe              &  Nancy Ontiveros         & Steve Sherry \\
+Travis Wheeler           &  Kelly Williams          & Kim Pruitt  \\
+Elena Rivas              &  Sam Griffith-Jones      & Jim Ostell \\
+Michael Farrar           &  Paul Gardner            & David Lipman \\
+\end{tabular}
+
+\includegraphics[width=2.5in]{figs/NIH_NLM_ABRV_2C_4-white}
+\includegraphics[width=2.5in]{figs/nlm-buildings}
+
+\end{center}
+
+\vfill
+
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+%\textbf{profile HMMs and covariance models}
+\textbf{Profile HMMs: sequence family models built from alignments}
+\end{center}
+
+\center{\includegraphics[height=6.625in]{figs/hmm}}
+
+%An HMM generates ``homologous'' sequences.
+
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+%\textbf{profile HMMs and covariance models}
+\textbf{Profile HMMs: sequence family models built from alignments}
+\end{center}
+
+\center{\includegraphics[height=6.625in]{figs/hmm-given}}
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+%\textbf{profile HMMs and covariance models}
+\textbf{Profile HMMs: sequence family models built from alignments}
+\end{center}
+
+\center{\includegraphics[height=6.625in]{figs/hmm-worm}}
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+%\textbf{profile HMMs and covariance models}
+\textbf{Profile HMMs: sequence family models built from alignments}
+\end{center}
+
+\center{\includegraphics[height=6.625in]{figs/hmm-corn}}
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+%\textbf{profile HMMs and covariance models}
+\textbf{Covariance models (CMs) are built \\ from structure-annotated alignments}
+\end{center}
+
+\center{\includegraphics[width=7in]{figs/cmintro_bandcyk}}
+
+\center{\includegraphics[width=2in,angle=270]{figs/cm-graph-small}}
+
+\vfill
+
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{slide}
+\begin{center}
+\textbf{Is the added complexity worth it? \\
+  RMARK: a challenging \underline{internal} RNA homology search
+  benchmark}
+
+\includegraphics[width=10in]{figs/rmark-tree-1}
+\end{center}
+
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+\textbf{Is the added complexity worth it? \\
+  RMARK: a challenging \underline{internal} RNA homology search
+  benchmark}
+
+\includegraphics[width=10in]{figs/rmark-tree-2}
+\end{center}
+
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+\textbf{Group I introns are widespread in Archaea}
+\end{center}
+
+\center{\includegraphics[height=6.5in]{figs/gp1-fig3-cladogram}}
+
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+\textbf{Could archaeal group I introns have evolved into BHB introns?}
+\end{center}
+\center{\includegraphics[width=8in]{figs/Tocchini-Valentini-title-screenshot}}\footnote{PNAS March 22, 2011. 108 (12) 4782-4787;}
+
+\textbf{Archaeal group I introns can occur in same host gene as BHB introns}
+
+\center{\includegraphics[width=10in]{figs/gp1-fig1-schematic}}
+\vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\begin{center}
+\textbf{Levels of sequence and structure conservation in RNA families}
+\end{center}
+\medskip
+
+\begin{center}
+\includegraphics[height=6.5in]{figs/avgscores-rfam11}
+\end{center}
+
+\vfill
+
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% TODO
-% - table of viruses
-% - future directions for infernal
-% - acknowledgements
-% - banded alingmnet figures?

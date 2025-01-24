@@ -1,129 +1,133 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/MacPorts 2019.50896_2) (preloaded format=pdflatex 2019.12.12)  24 JAN 2025 11:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2023.11.27)  24 JAN 2025 14:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**talk-ss2
+**talk-ss2.tex
 (./talk-ss2.tex
-LaTeX2e <2018-12-01>
-(/opt/local/share/texmf-texlive/tex/latex/base/slides.cls
-Document Class: slides 2016/03/29 v2.4a Standard LaTeX document class
-(/opt/local/share/texmf-texlive/tex/latex/base/slides.def
-File: slides.def 2016/03/29 v2.4a SLiTeX definitions
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/slides.cls
+Document Class: slides 2020/02/20 v2.4b Standard LaTeX document class
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/slides.def
+File: slides.def 2020/02/20 v2.4b SLiTeX definitions
  hacks, slides,
-\c@page=\count80
+\c@page=\count179
 
 picture, mods,
-\@smashboxa=\box27
-\@smashboxb=\box28
-\@smashboxc=\box29
+\@smashboxa=\box47
+\@smashboxb=\box48
+\@smashboxc=\box49
  output, init)
-(/opt/local/share/texmf-texlive/tex/latex/base/sfonts.def
-File: sfonts.def 1998/06/12 v2.2e Standard LaTeX slide font definitions
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/sfonts.def
+File: sfonts.def 2019/07/09 v2.2f Standard LaTeX slide font definitions
 
-(/opt/local/share/texmf-texlive/tex/latex/base/ot1lcmss.fd
-File: ot1lcmss.fd 1998/06/12 v2.2e Standard LaTeX slide font definitions
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ot1lcmss.fd
+File: ot1lcmss.fd 2019/07/09 v2.2f Standard LaTeX slide font definitions
 ))
-\c@minutes=\count81
-\c@seconds=\count82
-\c@mv@invisible=\count83
+\c@minutes=\count180
+\c@seconds=\count181
+\c@mv@invisible=\count182
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/lcmss/m/n on input line 359.
+(Font)                  OT1/cmr/m/n --> OT1/lcmss/m/n on input line 360.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/lcmm/m/it on input line 362.
+(Font)                  OML/cmm/m/it --> OML/lcmm/m/it on input line 363.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/lcmsy/m/n on input line 364.
+(Font)                  OMS/cmsy/m/n --> OMS/lcmsy/m/n on input line 365.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/lcmex/m/n on input line 366.
+(Font)                  OMX/cmex/m/n --> OMX/lcmex/m/n on input line 367.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `invisible'
-(Font)                  OT1/cmr/m/n --> OT1/lcmss/m/In on input line 369.
+(Font)                  OT1/cmr/m/n --> OT1/lcmss/m/In on input line 370.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `invisible'
-(Font)                  OML/cmm/m/it --> OML/lcmm/m/Iit on input line 371.
+(Font)                  OML/cmm/m/it --> OML/lcmm/m/Iit on input line 372.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `invisible'
-(Font)                  OMS/cmsy/m/n --> OMS/lcmsy/m/In on input line 373.
+(Font)                  OMS/cmsy/m/n --> OMS/lcmsy/m/In on input line 374.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `invisibl
 e'
-(Font)                  OMX/cmex/m/n --> OMX/lcmex/m/In on input line 375.
+(Font)                  OMX/cmex/m/n --> OMX/lcmex/m/In on input line 376.
 )
-(/opt/local/share/texmf-texlive/tex/latex/geometry/geometry.sty
-Package: geometry 2018/04/16 v5.8 Page Geometry
+(/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(/opt/local/share/texmf-texlive/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
+\KV@toks@=\toks15
 )
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-)
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-(/opt/local/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-\Gm@cnth=\count84
-\Gm@cntv=\count85
-\c@Gm@tempcnt=\count86
-\Gm@bindingoffset=\dimen102
-\Gm@wd@mp=\dimen103
-\Gm@odd@mp=\dimen104
-\Gm@even@mp=\dimen105
-\Gm@layoutwidth=\dimen106
-\Gm@layoutheight=\dimen107
-\Gm@layouthoffset=\dimen108
-\Gm@layoutvoffset=\dimen109
-\Gm@dimlist=\toks15
-)
-(/opt/local/share/texmf-texlive/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(/opt/local/share/texmf-texlive/tex/latex/graphics/graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count183
+\Gm@cntv=\count184
+\c@Gm@tempcnt=\count185
+\Gm@bindingoffset=\dimen138
+\Gm@wd@mp=\dimen139
+\Gm@odd@mp=\dimen140
+\Gm@even@mp=\dimen141
+\Gm@layoutwidth=\dimen142
+\Gm@layoutheight=\dimen143
+\Gm@layouthoffset=\dimen144
+\Gm@layoutvoffset=\dimen145
+\Gm@dimlist=\toks16
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/opt/local/share/texmf-texlive/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/opt/local/share/texmf-texlive/tex/latex/graphics-cfg/graphics.cfg
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 
-(/opt/local/share/texmf-texlive/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen110
-\Gin@req@width=\dimen111
+\Gin@req@height=\dimen146
+\Gin@req@width=\dimen147
 )
-(/opt/local/share/texmf-texlive/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
 
-(/opt/local/share/texmf-texlive/tex/latex/graphics-cfg/color.cfg
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-(/opt/local/share/texmf-texlive/tex/latex/tools/verbatim.sty
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks16
-\verbatim@line=\toks17
-\verbatim@in@stream=\read1
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks17
+\verbatim@line=\toks18
+\verbatim@in@stream=\read2
 )
-(/opt/local/share/texmf-texlive/tex/latex/nopageno/nopageno.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/nopageno/nopageno.sty
 Package: nopageno 1989/01/01 no page numbers (DPC)
 )
-(/opt/local/share/texmf-texlive/tex/latex/setspace/setspace.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count186
+\l__pdf_internal_box=\box50
 )
 (./talk-ss2.aux)
 \openout1 = `talk-ss2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for OT1/lcmss/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -164,83 +168,45 @@ LaTeX Font Info:    ... okay on input line 21.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/opt/local/share/texmf-texlive/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count87
-\scratchdimen=\dimen112
-\scratchbox=\box30
-\nofMPsegments=\count88
-\nofMParguments=\count89
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count90
-\MPscratchDim=\dimen113
-\MPnumerator=\count91
-\makeMPintoPDFobject=\count92
-\everyMPtoPDFconversion=\toks19
-) (/opt/local/share/texmf-texlive/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/opt/local/share/texmf-texlive/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-(/opt/local/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-))))
-(/opt/local/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
+\scratchcounter=\count187
+\scratchdimen=\dimen148
+\scratchbox=\box51
+\nofMPsegments=\count188
+\nofMParguments=\count189
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count190
+\MPscratchDim=\dimen149
+\MPnumerator=\count191
+\makeMPintoPDFobject=\count192
+\everyMPtoPDFconversion=\toks20
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
+85.
 
-(/opt/local/share/texmf-texlive/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for OML+lcmm on input line 43.
+LaTeX Font Info:    Trying to load font information for OML+lcmm on input line 
+43.
 
-
-(/opt/local/share/texmf-texlive/tex/latex/base/omllcmm.fd
-File: omllcmm.fd 1998/06/12 v2.2e Standard LaTeX slide font definitions
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/omllcmm.fd
+File: omllcmm.fd 2019/07/09 v2.2f Standard LaTeX slide font definitions
 )
-LaTeX Font Info:    Try loading font information for OMS+lcmsy on input line 43
-.
+LaTeX Font Info:    Trying to load font information for OMS+lcmsy on input line
+ 43.
 
-(/opt/local/share/texmf-texlive/tex/latex/base/omslcmsy.fd
-File: omslcmsy.fd 1998/06/12 v2.2e Standard LaTeX slide font definitions
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/omslcmsy.fd
+File: omslcmsy.fd 2019/07/09 v2.2f Standard LaTeX slide font definitions
 )
-LaTeX Font Info:    Try loading font information for OMX+lcmex on input line 43
-.
+LaTeX Font Info:    Trying to load font information for OMX+lcmex on input line
+ 43.
 
-(/opt/local/share/texmf-texlive/tex/latex/base/omxlcmex.fd
-File: omxlcmex.fd 1998/06/12 v2.2e Standard LaTeX slide font definitions
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/omxlcmex.fd
+File: omxlcmex.fd 2019/07/09 v2.2f Standard LaTeX slide font definitions
 )
 LaTeX Font Info:    External font `cmex10 at17.28pt' loaded for size
 (Font)              <16.59> on input line 43.
@@ -261,8 +227,8 @@ Package pdftex.def Info: figs/nlm-buildings.png  used on input line 57.
 (pdftex.def)             Requested size: 180.67499pt x 70.11343pt.
  [1
 
-{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/NIH_NLM_AB
-RV_2C_4-white.png> <./figs/nlm-buildings.png>] [2]
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figs/
+NIH_NLM_ABRV_2C_4-white.png> <./figs/nlm-buildings.png>] [2]
 <figs/spheres-submission-schematic-1.pdf, id=16, 399.38911pt x 312.75845pt>
 File: figs/spheres-submission-schematic-1.pdf Graphic file (type pdf)
 <use figs/spheres-submission-schematic-1.pdf>
@@ -348,8 +314,7 @@ File: figs/v-annotate-stage3-1.pdf Graphic file (type pdf)
 <use figs/v-annotate-stage3-1.pdf>
 Package pdftex.def Info: figs/v-annotate-stage3-1.pdf  used on input line 215.
 (pdftex.def)             Requested size: 758.83499pt x 415.7595pt.
-
-[14 <./figs/v-annotate-stage3-1.pdf>]
+ [14 <./figs/v-annotate-stage3-1.pdf>]
 <figs/v-annotate-stage3-4.pdf, id=547, 775.958pt x 178.2118pt>
 File: figs/v-annotate-stage3-4.pdf Graphic file (type pdf)
 <use figs/v-annotate-stage3-4.pdf>
@@ -379,9 +344,7 @@ File: figs/ss-protein-alert-list.png Graphic file (type png)
 Package pdftex.def Info: figs/ss-protein-alert-list.png  used on input line 262
 .
 (pdftex.def)             Requested size: 758.83499pt x 232.28214pt.
-
-[17 <./figs/v-annotate-stage4-2.pdf> <./figs/ss-protein-alert-list.png>]
-[18]
+ [17 <./figs/v-annotate-stage4-2.pdf> <./figs/ss-protein-alert-list.png>] [18]
 LaTeX Font Info:    External font `cmex10 at17.28pt' loaded for size
 (Font)              <10> on input line 349.
  [19] [20]
@@ -408,282 +371,364 @@ Package pdftex.def Info: figs/vadr-1p2-multithreading.pdf  used on input line 4
 (pdftex.def)             Requested size: 758.83499pt x 368.50517pt.
  [23 <./figs/vadr-1p2-multithreading.pdf>]
 [24] [25]
-LaTeX Font Info:    Try loading font information for OT1+lcmtt on input line 58
-0.
- (/opt/local/share/texmf-texlive/tex/latex/base/ot1lcmtt.fd
-File: ot1lcmtt.fd 1998/06/12 v2.2e Standard LaTeX slide font definitions
-) [26]
+LaTeX Font Info:    Trying to load font information for OT1+lcmtt on input line
+ 580.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ot1lcmtt.fd
+File: ot1lcmtt.fd 2019/07/09 v2.2f Standard LaTeX slide font definitions
+)
+[26]
 <figs/vadr-sarscov2-paper.png, id=814, 704.6325pt x 240.9pt>
 File: figs/vadr-sarscov2-paper.png Graphic file (type png)
 <use figs/vadr-sarscov2-paper.png>
 Package pdftex.def Info: figs/vadr-sarscov2-paper.png  used on input line 590.
 (pdftex.def)             Requested size: 758.83499pt x 259.42926pt.
-
-[27 <./figs/vadr-sarscov2-paper.png>] [28]
+ [27 <./figs/vadr-sarscov2-paper.png>] [28]
 <figs/vadr-flu-paper.png, id=822, 512.91624pt x 134.5025pt>
 File: figs/vadr-flu-paper.png Graphic file (type png)
 <use figs/vadr-flu-paper.png>
-Package pdftex.def Info: figs/vadr-flu-paper.png  used on input line 642.
+Package pdftex.def Info: figs/vadr-flu-paper.png  used on input line 640.
 (pdftex.def)             Requested size: 758.83499pt x 199.00514pt.
- [29 <./figs/vadr-flu-paper.png>]
-[30]
-Overfull \hbox (94.53107pt too wide) in paragraph at lines 674--692
+ [29 <./figs/vadr-flu-paper.png>] [30]
+Overfull \hbox (4.85237pt too wide) in paragraph at lines 672--691
  [][] 
  []
 
-[31] [32] [33] [34]
-<figs/16s-5s-trna-allblack.pdf, id=843, 794.97pt x 614.295pt>
+[31] [32]
+<figs/16s-5s-trna-allblack.pdf, id=837, 794.97pt x 614.295pt>
 File: figs/16s-5s-trna-allblack.pdf Graphic file (type pdf)
 <use figs/16s-5s-trna-allblack.pdf>
-Package pdftex.def Info: figs/16s-5s-trna-allblack.pdf  used on input line 746.
+Package pdftex.def Info: figs/16s-5s-trna-allblack.pdf  used on input line 719.
 
 (pdftex.def)             Requested size: 758.83499pt x 586.38895pt.
- [35 <./figs/16s-5s-trna-allblack.pdf>] [36]
-<figs/rfam-logo.png, id=878, 321.2pt x 94.3525pt>
+ [33 <./figs/16s-5s-trna-allblack.pdf>] [34]
+<figs/rfam-logo.png, id=872, 321.2pt x 94.3525pt>
 File: figs/rfam-logo.png Graphic file (type png)
 <use figs/rfam-logo.png>
-Package pdftex.def Info: figs/rfam-logo.png  used on input line 828.
+Package pdftex.def Info: figs/rfam-logo.png  used on input line 801.
 (pdftex.def)             Requested size: 180.67499pt x 53.07457pt.
- [37 <./figs/rfam-logo.png>]
-<figs/trna-123.pdf, id=884, 2455.31291pt x 946.81628pt>
+ [35 <./figs/rfam-logo.png>]
+<figs/trna-123.pdf, id=877, 2455.31291pt x 946.81628pt>
 File: figs/trna-123.pdf Graphic file (type pdf)
 <use figs/trna-123.pdf>
-Package pdftex.def Info: figs/trna-123.pdf  used on input line 847.
+Package pdftex.def Info: figs/trna-123.pdf  used on input line 820.
 (pdftex.def)             Requested size: 650.43pt x 250.81844pt.
- [38 <./figs/trna-123.pdf>]
-<figs/seqstructprofiles-seq1.pdf, id=905, 787.40175pt x 477.18777pt>
+ [36 <./figs/trna-123.pdf>]
+<figs/seqstructprofiles-seq1.pdf, id=898, 787.40175pt x 477.18777pt>
 File: figs/seqstructprofiles-seq1.pdf Graphic file (type pdf)
 <use figs/seqstructprofiles-seq1.pdf>
-Package pdftex.def Info: figs/seqstructprofiles-seq1.pdf  used on input line 88
-2.
+Package pdftex.def Info: figs/seqstructprofiles-seq1.pdf  used on input line 85
+5.
 (pdftex.def)             Requested size: 722.7pt x 437.98413pt.
- [39 <./figs/seqstructprofiles-seq1.pdf>]
-<figs/seqstructprofiles-struct2.pdf, id=962, 787.40175pt x 510.38179pt>
+ [37 <./figs/seqstructprofiles-seq1.pdf>]
+<figs/seqstructprofiles-struct2.pdf, id=956, 787.40175pt x 510.38179pt>
 File: figs/seqstructprofiles-struct2.pdf Graphic file (type pdf)
 <use figs/seqstructprofiles-struct2.pdf>
 Package pdftex.def Info: figs/seqstructprofiles-struct2.pdf  used on input line
- 895.
+ 868.
 (pdftex.def)             Requested size: 722.7pt x 468.45108pt.
- [40 <./figs/seqstructprofiles-struct2.pdf>]
+ [38 <./figs/seqstructprofiles-struct2.pdf>]
 
 LaTeX Font Warning: Font shape `OT1/lcmss/m/sc' undefined
-(Font)              using `OT1/lcmss/m/n' instead on input line 939.
+(Font)              using `OT1/lcmss/m/n' instead on input line 912.
 
-<figs/hmmer-infernal-refs-2019.pdf, id=1020, 463.7325pt x 248.93pt>
+<figs/hmmer-infernal-refs-2019.pdf, id=1014, 463.7325pt x 248.93pt>
 File: figs/hmmer-infernal-refs-2019.pdf Graphic file (type pdf)
 <use figs/hmmer-infernal-refs-2019.pdf>
 Package pdftex.def Info: figs/hmmer-infernal-refs-2019.pdf  used on input line 
-961.
+934.
 (pdftex.def)             Requested size: 363.51425pt x 195.12877pt.
-[41 <./figs/hmmer-infernal-refs-2019.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+lcmss on input line 10
-03.
-LaTeX Font Info:    No file OMSlcmss.fd. on input line 1003.
+[39 <./figs/hmmer-infernal-refs-2019.pdf>]
+LaTeX Font Info:    Trying to load font information for TS1+lcmss on input line
+ 976.
+LaTeX Font Info:    No file TS1lcmss.fd. on input line 976.
 
 
-LaTeX Font Warning: Font shape `OMS/lcmss/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textasteriskcentered' on input line 1003.
+LaTeX Font Warning: Font shape `TS1/lcmss/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead
+(Font)              for symbol `textasteriskcentered' on input line 976.
 
 
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16.59> not available
-(Font)              size <17.28> substituted on input line 1003.
+LaTeX Font Warning: Font shape `TS1/cmr/m/n' in size <16.59> not available
+(Font)              size <17.28> substituted on input line 976.
 
-<figs/roc-talk-rcb-2014-1.pdf, id=1043, 653.08794pt x 340.87651pt>
+<figs/roc-talk-rcb-2014-1.pdf, id=1037, 653.08794pt x 340.87651pt>
 File: figs/roc-talk-rcb-2014-1.pdf Graphic file (type pdf)
 <use figs/roc-talk-rcb-2014-1.pdf>
-Package pdftex.def Info: figs/roc-talk-rcb-2014-1.pdf  used on input line 1008.
-
+Package pdftex.def Info: figs/roc-talk-rcb-2014-1.pdf  used on input line 981.
 (pdftex.def)             Requested size: 722.7pt x 377.2227pt.
-[42 <./figs/roc-talk-rcb-2014-1.pdf>]
+[40 <./figs/roc-talk-rcb-2014-1.pdf>]
 
 pdfTeX warning: pdflatex (file ./figs/16s-5s-trna-info-16sonly.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<figs/16s-5s-trna-info-16sonly.pdf, id=1063, 794.97pt x 614.295pt>
+<figs/16s-5s-trna-info-16sonly.pdf, id=1058, 794.97pt x 614.295pt>
 File: figs/16s-5s-trna-info-16sonly.pdf Graphic file (type pdf)
 <use figs/16s-5s-trna-info-16sonly.pdf>
 Package pdftex.def Info: figs/16s-5s-trna-info-16sonly.pdf  used on input line 
-1015.
+988.
 (pdftex.def)             Requested size: 758.83499pt x 586.38895pt.
-[43 <./figs/16s-5s-trna-info-16sonly.pdf>]
-<figs/16s-5s-trna-info.pdf, id=1090, 794.97pt x 614.295pt>
+[41 <./figs/16s-5s-trna-info-16sonly.pdf>]
+<figs/16s-5s-trna-info.pdf, id=1084, 794.97pt x 614.295pt>
 File: figs/16s-5s-trna-info.pdf Graphic file (type pdf)
 <use figs/16s-5s-trna-info.pdf>
-Package pdftex.def Info: figs/16s-5s-trna-info.pdf  used on input line 1019.
+Package pdftex.def Info: figs/16s-5s-trna-info.pdf  used on input line 992.
 (pdftex.def)             Requested size: 758.83499pt x 586.38895pt.
- [44 <./figs/16s-5s-trna-info.pdf>]
+ [42 <./figs/16s-5s-trna-info.pdf>]
 
-LaTeX Font Warning: Font shape `OMS/lcmss/m/n' in size <19.907> not available
-(Font)              size <20.74> substituted on input line 1028.
+LaTeX Font Warning: Font shape `TS1/lcmss/m/n' in size <19.907> not available
+(Font)              size <20.74> substituted on input line 1001.
 
-<figs/filter-2014-1.pdf, id=1127, 346.11308pt x 315.847pt>
+<figs/filter-2014-1.pdf, id=1121, 346.11308pt x 315.847pt>
 File: figs/filter-2014-1.pdf Graphic file (type pdf)
 <use figs/filter-2014-1.pdf>
-Package pdftex.def Info: figs/filter-2014-1.pdf  used on input line 1031.
+Package pdftex.def Info: figs/filter-2014-1.pdf  used on input line 1004.
 (pdftex.def)             Requested size: 316.78014pt x 289.07999pt.
-[45 <./figs/filter-2014-1.pdf>]
+[43 <./figs/filter-2014-1.pdf>]
 File: figs/filter-2014-1.pdf Graphic file (type pdf)
 <use figs/filter-2014-1.pdf>
-Package pdftex.def Info: figs/filter-2014-1.pdf  used on input line 1044.
+Package pdftex.def Info: figs/filter-2014-1.pdf  used on input line 1017.
 (pdftex.def)             Requested size: 316.78014pt x 289.07999pt.
- [46]
-<figs/hmm_alignment2_layer3.pdf, id=1141, 241.90375pt x 385.44pt>
+ [44]
+<figs/hmm_alignment2_layer3.pdf, id=1137, 241.90375pt x 385.44pt>
 File: figs/hmm_alignment2_layer3.pdf Graphic file (type pdf)
 <use figs/hmm_alignment2_layer3.pdf>
-Package pdftex.def Info: figs/hmm_alignment2_layer3.pdf  used on input line 107
-5.
+Package pdftex.def Info: figs/hmm_alignment2_layer3.pdf  used on input line 104
+8.
 (pdftex.def)             Requested size: 272.14104pt x 433.62pt.
- [47 <./figs/hmm_alignment2_layer3.pdf>]
-<figs/post_hmm_to_cm_map2_layer14.pdf, id=1152, 669.50125pt x 461.725pt>
+ [45 <./figs/hmm_alignment2_layer3.pdf>]
+<figs/post_hmm_to_cm_map2_layer14.pdf, id=1148, 669.50125pt x 461.725pt>
 File: figs/post_hmm_to_cm_map2_layer14.pdf Graphic file (type pdf)
 <use figs/post_hmm_to_cm_map2_layer14.pdf>
 Package pdftex.def Info: figs/post_hmm_to_cm_map2_layer14.pdf  used on input li
-ne 1096.
+ne 1069.
 (pdftex.def)             Requested size: 578.15999pt x 398.76665pt.
 
-[48 <./figs/post_hmm_to_cm_map2_layer14.pdf>]
-<figs/post_hmm_to_cm_map2_layer15.pdf, id=1164, 669.50125pt x 461.725pt>
+[46 <./figs/post_hmm_to_cm_map2_layer14.pdf>]
+<figs/post_hmm_to_cm_map2_layer15.pdf, id=1159, 669.50125pt x 461.725pt>
 File: figs/post_hmm_to_cm_map2_layer15.pdf Graphic file (type pdf)
 <use figs/post_hmm_to_cm_map2_layer15.pdf>
 Package pdftex.def Info: figs/post_hmm_to_cm_map2_layer15.pdf  used on input li
-ne 1116.
+ne 1089.
 (pdftex.def)             Requested size: 578.15999pt x 398.76665pt.
- [49 <./figs/post_hmm_to_cm_map2_layer15.pdf>]
-<figs/post_hmm_to_cm_map2_layer16.pdf, id=1176, 669.50125pt x 465.74pt>
+ [47 <./figs/post_hmm_to_cm_map2_layer15.pdf>]
+<figs/post_hmm_to_cm_map2_layer16.pdf, id=1171, 669.50125pt x 465.74pt>
 File: figs/post_hmm_to_cm_map2_layer16.pdf Graphic file (type pdf)
 <use figs/post_hmm_to_cm_map2_layer16.pdf>
 Package pdftex.def Info: figs/post_hmm_to_cm_map2_layer16.pdf  used on input li
-ne 1136.
+ne 1109.
 (pdftex.def)             Requested size: 578.15999pt x 402.23418pt.
- [50 <./figs/post_hmm_to_cm_map2_layer16.pdf>]
+ [48 <./figs/post_hmm_to_cm_map2_layer16.pdf>]
 File: figs/16s-5s-trna-info-16sonly.pdf Graphic file (type pdf)
 <use figs/16s-5s-trna-info-16sonly.pdf>
 Package pdftex.def Info: figs/16s-5s-trna-info-16sonly.pdf  used on input line 
-1142.
+1115.
 (pdftex.def)             Requested size: 758.83499pt x 586.38895pt.
- [51]
+ [49]
 File: figs/16s-5s-trna-info.pdf Graphic file (type pdf)
 <use figs/16s-5s-trna-info.pdf>
-Package pdftex.def Info: figs/16s-5s-trna-info.pdf  used on input line 1146.
+Package pdftex.def Info: figs/16s-5s-trna-info.pdf  used on input line 1119.
 (pdftex.def)             Requested size: 758.83499pt x 586.38895pt.
- [52]
-<figs/filter-2014-2.pdf, id=1193, 346.11308pt x 315.847pt>
+ [50]
+<figs/filter-2014-2.pdf, id=1189, 346.11308pt x 315.847pt>
 File: figs/filter-2014-2.pdf Graphic file (type pdf)
 <use figs/filter-2014-2.pdf>
-Package pdftex.def Info: figs/filter-2014-2.pdf  used on input line 1155.
+Package pdftex.def Info: figs/filter-2014-2.pdf  used on input line 1128.
 (pdftex.def)             Requested size: 395.97781pt x 361.34999pt.
- [53 <./figs/filter-2014-2.pdf>]
-<figs/roc-talk-rcb-2014-2.pdf, id=1202, 653.08794pt x 340.87651pt>
+ [51 <./figs/filter-2014-2.pdf>]
+<figs/roc-talk-rcb-2014-2.pdf, id=1198, 653.08794pt x 340.87651pt>
 File: figs/roc-talk-rcb-2014-2.pdf Graphic file (type pdf)
 <use figs/roc-talk-rcb-2014-2.pdf>
-Package pdftex.def Info: figs/roc-talk-rcb-2014-2.pdf  used on input line 1168.
+Package pdftex.def Info: figs/roc-talk-rcb-2014-2.pdf  used on input line 1141.
 
 (pdftex.def)             Requested size: 722.7pt x 377.2227pt.
- [54 <./figs/roc-talk-rcb-2014-2.pdf>]
-<figs/paper-pgap.png, id=1219, 700.6175pt x 233.87375pt>
+ [52 <./figs/roc-talk-rcb-2014-2.pdf>]
+<figs/paper-pgap.png, id=1215, 700.6175pt x 233.87375pt>
 File: figs/paper-pgap.png Graphic file (type png)
 <use figs/paper-pgap.png>
-Package pdftex.def Info: figs/paper-pgap.png  used on input line 1192.
+Package pdftex.def Info: figs/paper-pgap.png  used on input line 1165.
 (pdftex.def)             Requested size: 578.15999pt x 193.00887pt.
- [55 <./figs/paper-pgap.png>]
-<figs/paper-introns.png, id=1225, 651.43375pt x 199.74625pt>
+ [53 <./figs/paper-pgap.png>]
+<figs/paper-introns.png, id=1220, 651.43375pt x 199.74625pt>
 File: figs/paper-introns.png Graphic file (type png)
 <use figs/paper-introns.png>
-Package pdftex.def Info: figs/paper-introns.png  used on input line 1198.
+Package pdftex.def Info: figs/paper-introns.png  used on input line 1171.
 (pdftex.def)             Requested size: 505.89pt x 155.12482pt.
-<figs/gp1-fig2-ss.pdf, id=1226, 1050.846pt x 789.71239pt>
+<figs/gp1-fig2-ss.pdf, id=1221, 1050.846pt x 789.71239pt>
 File: figs/gp1-fig2-ss.pdf Graphic file (type pdf)
 <use figs/gp1-fig2-ss.pdf>
-Package pdftex.def Info: figs/gp1-fig2-ss.pdf  used on input line 1200.
+Package pdftex.def Info: figs/gp1-fig2-ss.pdf  used on input line 1173.
 (pdftex.def)             Requested size: 433.62pt x 325.86884pt.
- [56 <./figs/paper-introns.png> <./figs/gp1-fig2-ss.pdf>]
+ [54 <./figs/paper-introns.png> <./figs/gp1-fig2-ss.pdf>]
 File: figs/spheres-submission-schematic-1.pdf Graphic file (type pdf)
 <use figs/spheres-submission-schematic-1.pdf>
 Package pdftex.def Info: figs/spheres-submission-schematic-1.pdf  used on input
- line 1211.
+ line 1184.
 (pdftex.def)             Requested size: 650.43pt x 509.36227pt.
- [57]
+ [55]
 
-LaTeX Font Warning: Font shape `OMS/lcmss/m/n' in size <16.59> not available
-(Font)              size <17.28> substituted on input line 1220.
+LaTeX Font Warning: Font shape `TS1/lcmss/m/n' in size <16.59> not available
+(Font)              size <17.28> substituted on input line 1193.
 
-<figs/ribosensor-schematic.pdf, id=1286, 684.5575pt x 265.99374pt>
+<figs/ribosensor-schematic.pdf, id=1282, 684.5575pt x 265.99374pt>
 File: figs/ribosensor-schematic.pdf Graphic file (type pdf)
 <use figs/ribosensor-schematic.pdf>
-Package pdftex.def Info: figs/ribosensor-schematic.pdf  used on input line 1223
+Package pdftex.def Info: figs/ribosensor-schematic.pdf  used on input line 1196
 .
 (pdftex.def)             Requested size: 722.7pt x 280.83586pt.
-[58 <./figs/ribosensor-schematic.pdf>]
-<figs/paper-ribovore.png, id=1311, 993.7125pt x 375.4025pt>
+[56 <./figs/ribosensor-schematic.pdf>]
+<figs/paper-ribovore.png, id=1307, 993.7125pt x 375.4025pt>
 File: figs/paper-ribovore.png Graphic file (type png)
 <use figs/paper-ribovore.png>
-Package pdftex.def Info: figs/paper-ribovore.png  used on input line 1247.
+Package pdftex.def Info: figs/paper-ribovore.png  used on input line 1220.
 (pdftex.def)             Requested size: 478.26541pt x 180.67499pt.
-<figs/ribovore.pdf, id=1312, 565.7446pt x 524.89098pt>
+<figs/ribovore.pdf, id=1308, 565.7446pt x 524.89098pt>
 File: figs/ribovore.pdf Graphic file (type pdf)
 <use figs/ribovore.pdf>
-Package pdftex.def Info: figs/ribovore.pdf  used on input line 1249.
+Package pdftex.def Info: figs/ribovore.pdf  used on input line 1222.
 (pdftex.def)             Requested size: 428.43376pt x 397.48499pt.
- [59 <./figs/paper-ribovore.png> <./figs/ribovore.pdf>]
-<figs/paper-rfam-2024.png, id=1338, 688.5725pt x 370.38374pt>
+ [57 <./figs/paper-ribovore.png> <./figs/ribovore.pdf>]
+<figs/paper-rfam-2024.png, id=1334, 688.5725pt x 370.38374pt>
 File: figs/paper-rfam-2024.png Graphic file (type png)
 <use figs/paper-rfam-2024.png>
-Package pdftex.def Info: figs/paper-rfam-2024.png  used on input line 1255.
+Package pdftex.def Info: figs/paper-rfam-2024.png  used on input line 1228.
 (pdftex.def)             Requested size: 722.7pt x 388.74484pt.
- [60 <./figs/paper-rfam-2024.png>]
-<figs/paper-rnacentral-2019.png, id=1343, 696.6025pt x 151.56625pt>
+ [58 <./figs/paper-rfam-2024.png>]
+<figs/paper-rnacentral-2019.png, id=1339, 696.6025pt x 151.56625pt>
 File: figs/paper-rnacentral-2019.png Graphic file (type png)
 <use figs/paper-rnacentral-2019.png>
-Package pdftex.def Info: figs/paper-rnacentral-2019.png  used on input line 126
-1.
+Package pdftex.def Info: figs/paper-rnacentral-2019.png  used on input line 123
+4.
 (pdftex.def)             Requested size: 722.7pt x 157.25282pt.
-<figs/paper-rnacentral-2021.png, id=1344, 699.61375pt x 175.65625pt>
+<figs/paper-rnacentral-2021.png, id=1340, 699.61375pt x 175.65625pt>
 File: figs/paper-rnacentral-2021.png Graphic file (type png)
 <use figs/paper-rnacentral-2021.png>
-Package pdftex.def Info: figs/paper-rnacentral-2021.png  used on input line 126
-3.
+Package pdftex.def Info: figs/paper-rnacentral-2021.png  used on input line 123
+6.
 (pdftex.def)             Requested size: 722.7pt x 181.464pt.
- [61 <./figs/paper-rnacentral-2019.png> <./figs/paper-rnacentral-2021.png>]
-<figs/paper-r2dt-2021.png, id=1351, 701.62125pt x 353.32pt>
+ [59 <./figs/paper-rnacentral-2019.png> <./figs/paper-rnacentral-2021.png>]
+<figs/paper-r2dt-2021.png, id=1346, 701.62125pt x 353.32pt>
 File: figs/paper-r2dt-2021.png Graphic file (type png)
 <use figs/paper-r2dt-2021.png>
-Package pdftex.def Info: figs/paper-r2dt-2021.png  used on input line 1269.
+Package pdftex.def Info: figs/paper-r2dt-2021.png  used on input line 1242.
 (pdftex.def)             Requested size: 722.7pt x 363.9614pt.
- [62 <./figs/paper-r2dt-2021.png>]
-<figs/paper-hydractinia-2024.png, id=1357, 673.51625pt x 333.245pt>
+ [60 <./figs/paper-r2dt-2021.png>]
+<figs/paper-hydractinia-2024.png, id=1351, 673.51625pt x 333.245pt>
 File: figs/paper-hydractinia-2024.png Graphic file (type png)
 <use figs/paper-hydractinia-2024.png>
 Package pdftex.def Info: figs/paper-hydractinia-2024.png  used on input line 12
-75.
+48.
 (pdftex.def)             Requested size: 433.62pt x 214.55237pt.
-<figs/rrna-gff.pdf, id=1358, 701.62125pt x 117.23097pt>
+<figs/rrna-gff.pdf, id=1352, 701.62125pt x 117.23097pt>
 File: figs/rrna-gff.pdf Graphic file (type pdf)
 <use figs/rrna-gff.pdf>
-Package pdftex.def Info: figs/rrna-gff.pdf  used on input line 1277.
+Package pdftex.def Info: figs/rrna-gff.pdf  used on input line 1250.
 (pdftex.def)             Requested size: 722.7pt x 120.76175pt.
-<figs/trna-gff.pdf, id=1359, 693.40053pt x 107.15633pt>
+<figs/trna-gff.pdf, id=1353, 693.40053pt x 107.15633pt>
 File: figs/trna-gff.pdf Graphic file (type pdf)
 <use figs/trna-gff.pdf>
-Package pdftex.def Info: figs/trna-gff.pdf  used on input line 1279.
+Package pdftex.def Info: figs/trna-gff.pdf  used on input line 1252.
 (pdftex.def)             Requested size: 722.7pt x 111.68683pt.
 
-[63 <./figs/paper-hydractinia-2024.png> <./figs/rrna-gff.pdf> <./figs/trna-gff.
+[61 <./figs/paper-hydractinia-2024.png> <./figs/rrna-gff.pdf> <./figs/trna-gff.
 pdf>]
-<figs/paper-tmrna-2025.png, id=1405, 598.235pt x 370.38374pt>
+<figs/paper-tmrna-2025.png, id=1401, 598.235pt x 370.38374pt>
 File: figs/paper-tmrna-2025.png Graphic file (type png)
 <use figs/paper-tmrna-2025.png>
-Package pdftex.def Info: figs/paper-tmrna-2025.png  used on input line 1285.
+Package pdftex.def Info: figs/paper-tmrna-2025.png  used on input line 1258.
 (pdftex.def)             Requested size: 722.7pt x 447.47621pt.
-<figs/tmrna-templates.png, id=1406, 647.41875pt x 403.5075pt>
+<figs/tmrna-templates.png, id=1402, 647.41875pt x 403.5075pt>
 File: figs/tmrna-templates.png Graphic file (type png)
 <use figs/tmrna-templates.png>
-Package pdftex.def Info: figs/tmrna-templates.png  used on input line 1287.
+Package pdftex.def Info: figs/tmrna-templates.png  used on input line 1260.
 (pdftex.def)             Requested size: 722.7pt x 450.4538pt.
- [64 <./figs/paper-tmrna-2025.png>]
+ [62 <./figs/paper-tmrna-2025.png>]
 
-Class slides Warning: Slide 64 too long on input line 1290.
+Class slides Warning: Slide 62 too long on input line 1263.
 
-[64 <./figs/tmrna-templates.png>] (./talk-ss2.aux)
+[62 <./figs/tmrna-templates.png>] [63]
+File: figs/NIH_NLM_ABRV_2C_4-white.png Graphic file (type png)
+<use figs/NIH_NLM_ABRV_2C_4-white.png>
+Package pdftex.def Info: figs/NIH_NLM_ABRV_2C_4-white.png  used on input line 1
+321.
+(pdftex.def)             Requested size: 180.67499pt x 63.09265pt.
+File: figs/nlm-buildings.png Graphic file (type png)
+<use figs/nlm-buildings.png>
+Package pdftex.def Info: figs/nlm-buildings.png  used on input line 1322.
+(pdftex.def)             Requested size: 180.67499pt x 70.11343pt.
+ [64]
+<figs/hmm.pdf, id=1417, 734.71088pt x 603.72548pt>
+File: figs/hmm.pdf Graphic file (type pdf)
+<use figs/hmm.pdf>
+Package pdftex.def Info: figs/hmm.pdf  used on input line 1336.
+(pdftex.def)             Requested size: 582.6686pt x 478.78874pt.
+ [65 <./figs/hmm.pdf>]
+<figs/hmm-given.pdf, id=1458, 734.71088pt x 603.72548pt>
+File: figs/hmm-given.pdf Graphic file (type pdf)
+<use figs/hmm-given.pdf>
+Package pdftex.def Info: figs/hmm-given.pdf  used on input line 1348.
+(pdftex.def)             Requested size: 582.6686pt x 478.78874pt.
+ [66 <./figs/hmm-given.pdf>]
+<figs/hmm-worm.pdf, id=1498, 734.71088pt x 603.72548pt>
+File: figs/hmm-worm.pdf Graphic file (type pdf)
+<use figs/hmm-worm.pdf>
+Package pdftex.def Info: figs/hmm-worm.pdf  used on input line 1357.
+(pdftex.def)             Requested size: 582.6686pt x 478.78874pt.
+ [67 <./figs/hmm-worm.pdf>]
+<figs/hmm-corn.pdf, id=1535, 737.71913pt x 654.91373pt>
+File: figs/hmm-corn.pdf Graphic file (type pdf)
+<use figs/hmm-corn.pdf>
+Package pdftex.def Info: figs/hmm-corn.pdf  used on input line 1366.
+(pdftex.def)             Requested size: 539.32971pt x 478.78874pt.
+ [68 <./figs/hmm-corn.pdf>]
+<figs/cmintro_bandcyk.pdf, id=1573, 534.1225pt x 286.34076pt>
+File: figs/cmintro_bandcyk.pdf Graphic file (type pdf)
+<use figs/cmintro_bandcyk.pdf>
+Package pdftex.def Info: figs/cmintro_bandcyk.pdf  used on input line 1375.
+(pdftex.def)             Requested size: 505.89pt x 271.21825pt.
+<figs/cm-graph-small.pdf, id=1574, 158.0826pt x 663.94748pt>
+File: figs/cm-graph-small.pdf Graphic file (type pdf)
+<use figs/cm-graph-small.pdf>
+Package pdftex.def Info: figs/cm-graph-small.pdf  used on input line 1377.
+(pdftex.def)             Requested size: 144.54pt x 607.08047pt.
+ [69 <./figs/cmintro_bandcyk.pdf> <./figs/cm-graph-small.pdf>]
+<figs/rmark-tree-1.pdf, id=1621, 816.63695pt x 581.2395pt>
+File: figs/rmark-tree-1.pdf Graphic file (type pdf)
+<use figs/rmark-tree-1.pdf>
+Package pdftex.def Info: figs/rmark-tree-1.pdf  used on input line 1390.
+(pdftex.def)             Requested size: 722.7pt x 514.38364pt.
+ [70 <./figs/rmark-tree-1.pdf>]
+<figs/rmark-tree-2.pdf, id=1638, 816.63695pt x 581.2395pt>
+File: figs/rmark-tree-2.pdf Graphic file (type pdf)
+<use figs/rmark-tree-2.pdf>
+Package pdftex.def Info: figs/rmark-tree-2.pdf  used on input line 1402.
+(pdftex.def)             Requested size: 722.7pt x 514.38364pt.
+ [71 <./figs/rmark-tree-2.pdf>]
+<figs/gp1-fig3-cladogram.pdf, id=1653, 521.95pt x 581.17125pt>
+File: figs/gp1-fig3-cladogram.pdf Graphic file (type pdf)
+<use figs/gp1-fig3-cladogram.pdf>
+Package pdftex.def Info: figs/gp1-fig3-cladogram.pdf  used on input line 1413.
+(pdftex.def)             Requested size: 421.89314pt x 469.75499pt.
+ [72 <./figs/gp1-fig3-cladogram.pdf>]
+<figs/Tocchini-Valentini-title-screenshot.png, id=1699, 981.6675pt x 222.8325pt
+>
+File: figs/Tocchini-Valentini-title-screenshot.png Graphic file (type png)
+<use figs/Tocchini-Valentini-title-screenshot.png>
+Package pdftex.def Info: figs/Tocchini-Valentini-title-screenshot.png  used on 
+input line 1422.
+(pdftex.def)             Requested size: 578.15999pt x 131.24222pt.
+<figs/gp1-fig1-schematic.pdf, id=1700, 900.55147pt x 387.8791pt>
+File: figs/gp1-fig1-schematic.pdf Graphic file (type pdf)
+<use figs/gp1-fig1-schematic.pdf>
+Package pdftex.def Info: figs/gp1-fig1-schematic.pdf  used on input line 1426.
+(pdftex.def)             Requested size: 722.7pt x 311.29208pt.
+
+[73 <./figs/Tocchini-Valentini-title-screenshot.png> <./figs/gp1-fig1-schematic
+.pdf>]
+<figs/avgscores-rfam11.pdf, id=1752, 481.90237pt x 326.1214pt>
+File: figs/avgscores-rfam11.pdf Graphic file (type pdf)
+<use figs/avgscores-rfam11.pdf>
+Package pdftex.def Info: figs/avgscores-rfam11.pdf  used on input line 1437.
+(pdftex.def)             Requested size: 694.20358pt x 469.75499pt.
+ [74 <./figs/avgscores-rfam11.pdf>] (./talk-ss2.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.83301pt have occurred.
@@ -693,24 +738,28 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 2424 strings out of 493731
- 41788 string characters out of 6152119
- 101784 words of memory out of 5000000
- 6078 multiletter control sequences out of 15000+600000
- 12473 words of font info for 44 fonts, out of 8000000 for 9000
- 430 hyphenation exceptions out of 8191
- 41i,8n,25p,271b,304s stack positions out of 5000i,500n,10000p,200000b,80000s
-</opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></op
-t/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/loc
-al/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></opt/local/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt8.pfb></opt/local/share/tex
-mf-texlive/fonts/type1/public/amsfonts/latxfont/lcmss8.pfb></opt/local/share/te
-xmf-texlive/fonts/type1/public/amsfonts/latxfont/lcmssb8.pfb></opt/local/share/
-texmf-texlive/fonts/type1/public/amsfonts/latxfont/lcmssi8.pfb>
-Output written on talk-ss2.pdf (65 pages, 10695121 bytes).
+ 2441 strings out of 478994
+ 45626 string characters out of 5858183
+ 332401 words of memory out of 5000000
+ 19852 multiletter control sequences out of 15000+600000
+ 412510 words of font info for 57 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 68i,8n,74p,230b,330s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
+sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr
+/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcmss8.pfb>
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcmssb
+8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/latxfont/
+lcmssi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfr
+m1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1
+728.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm207
+4.pfb>
+Output written on talk-ss2.pdf (75 pages, 12014780 bytes).
 PDF statistics:
- 1441 PDF objects out of 1728 (max. 8388607)
- 868 compressed objects within 9 object streams
+ 1806 PDF objects out of 2073 (max. 8388607)
+ 1051 compressed objects within 11 object streams
  0 named destinations out of 1000 (max. 500000)
- 276 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 336 words of extra memory for PDF output out of 10000 (max. 10000000)
 
