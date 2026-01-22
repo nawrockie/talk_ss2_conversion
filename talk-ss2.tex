@@ -92,7 +92,8 @@ National Institutes of Health\\
 \item general tool for reference-based annotation of viral sequences
 \item used for Norovirus and Dengue virus submissions since 2018
 \item used for SARS-CoV-2 submissions since March 2020 
-\item also used manually for RSV, Mpox, and some Influenza submissions
+\item also used manually for submissions of RSV, Mpox, measles,
+  Influenza, and more
 \end{itemize}
 
 \vfill
@@ -624,7 +625,9 @@ Mpox & 197Kb & 1 & minimap alignment & Eric Nawrocki \\
  & & & & & \\ 
 Influenza & 1-2Kb & 70 & segmented virus & Eric Nawrocki \\
  & & & & & \\ 
-Zika      & 11Kb & ? & ? & EB Dickinson \\
+Hepatitis B & 1-2Kb & 1 & circular genome & Eric Nawrocki \\
+ & & & & & \\ 
+Zika      & 11Kb & 3 & - & EB Dickinson \\
 \end{tabular}
 
 % \includegraphics[width=10.5in]{figs/vadr-flu-paper}
@@ -649,7 +652,9 @@ Mpox & 197Kb & 1 & minimap alignment & Eric Nawrocki \\
  & & & & & \\ 
 Influenza & 1-2Kb & 70 & segmented virus & Eric Nawrocki \\
  & & & & & \\ 
-Zika      & 11Kb & ? & ? & EB Dickinson \\
+Hepatitis B & 1-2Kb & 1 & circular genome & Eric Nawrocki \\
+ & & & & & \\ 
+Zika      & 11Kb & 3 & - & EB Dickinson \\
 \end{tabular}
 
 \includegraphics[width=10.5in]{figs/vadr-flu-paper}
@@ -687,15 +692,30 @@ Zika      & 11Kb & ? & ? & EB Dickinson \\
 \begin{tabular}{l|r|r|l|l|l}
  & length & num models & new feature(s) & author\\ \hline
  & & & & & \\ 
-RSV & 15Kb & 2 & alignment-based models & Eric Nawrocki \\
+%RSV & 15Kb & 2 & alignment-based models & Eric Nawrocki \\
+% & & & & & \\ 
+%COX-1 & 1.5Kb & 86 & protein-coding gene & Eric Nawrocki \\
+% & & & & & \\ 
+%Mpox & 197Kb & 1 & minimap alignment & Eric Nawrocki \\
+% & & & & & \\ 
+%Influenza & 1-2Kb & 70 & segmented virus & Eric Nawrocki \\
+% & & & & & \\ 
+%Zika      & 11Kb & ? & ? & EB Dickinson \\
+% & & & & & \\ 
+\textcolor{red}{Hepatitis A} & \textcolor{red}{7Kb} & \textcolor{red}{5} & \textcolor{red}{-} & \textcolor{red}{Jeffrey Furlong} \\
+\textcolor{red}{virus (HAV)} &  &  & & \textcolor{red}{(Greninger Lab)} \\
  & & & & & \\ 
-COX-1 & 1.5Kb & 86 & protein-coding gene & Eric Nawrocki \\
+\textcolor{red}{Measles} & \textcolor{red}{16Kb} & \textcolor{red}{15} & \textcolor{red}{-} & \textcolor{red}{Jeffrey Furlong} \\
+\textcolor{red}{virus (MeV)} &  &  & & \textcolor{red}{(Greninger Lab)} \\
  & & & & & \\ 
-Mpox & 197Kb & 1 & minimap alignment & Eric Nawrocki \\
+\textcolor{red}{Mumps} & \textcolor{red}{15Kb} & \textcolor{red}{12} & \textcolor{red}{-} & \textcolor{red}{Jeffrey Furlong} \\
+\textcolor{red}{virus (MuV)} &  &  & & \textcolor{red}{(Greninger Lab)} \\
  & & & & & \\ 
-Influenza & 1-2Kb & 70 & segmented virus & Eric Nawrocki \\
+\textcolor{red}{Rubella} & \textcolor{red}{10Kb} & \textcolor{red}{2} & \textcolor{red}{-} & \textcolor{red}{Jeffrey Furlong} \\
+\textcolor{red}{virus (RuV)} &  &  & & \textcolor{red}{(Greninger Lab)} \\
  & & & & & \\ 
-Zika      & 11Kb & ? & ? & EB Dickinson \\
+\textcolor{red}{Seasonal human} & \textcolor{red}{30Kb} & \textcolor{red}{4} & \textcolor{red}{-} & \textcolor{red}{Jeffrey Furlong} \\
+\textcolor{red}{coronavirus (HCoV)} &  &  & & \textcolor{red}{(Greninger Lab)} \\
  & & & & & \\ 
 \textcolor{red}{Herpes Simplex} & \textcolor{red}{150Kb} & \textcolor{red}{2} & \textcolor{red}{-} & \textcolor{red}{Jaydee Sereewit} \\
 \textcolor{red}{Virus (HSV)} &  &  & & \textcolor{red}{(Greninger Lab)} \\
@@ -712,20 +732,32 @@ Zika      & 11Kb & ? & ? & EB Dickinson \\
 \end{slide}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{slide}
+\center{\includegraphics[width=10in]{figs/gren-title}}
+
+  \vfill
+\end{slide}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{slide}
+\small
 \begin{center}
   \textbf{Future directions for VADR}
 \end{center}
 
   \begin{itemize}
-  \item NCBI Virus FY2025 goals: 
+  \item NCBI Virus FY2026 goals: 
     \begin{itemize}
     \item VADR web server
     \item Replacement of FLAN with VADR
     \end{itemize}
 
   \item Models for more viruses (our group and Greninger lab)
-%  \item Alignment-based models 
-%  \item RNA structure annotation in Flaviviruses (already exists for Dengue)
+  \item Handling of circular genomes (Hep B)
+  \item Alignment-based models 
+    \begin{itemize}
+    \item nearest-neighbor based classification of serotypes
+    \item possible recombination detection
+    \end{itemize}
+  \item RNA structure annotation in Flaviviruses (already exists for Dengue)
   \end{itemize}
   \vfill
 
@@ -1278,13 +1310,12 @@ profiles and BLAST\footnote{Alejandro Sch\"{a}ffer developed the BLAST-based sch
 \end{slide}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{slide}
-\center{\includegraphics[width=10in]{figs/paper-tmrna-2025}}
+\center{\includegraphics[width=10in]{figs/tmrna-title}}
 
-\center{\includegraphics[width=10in]{figs/tmrna-templates}}
+\center{\includegraphics[width=10in]{figs/tmrna-fig}}
 
   \vfill
 \end{slide}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{slide}
 \begin{center}
